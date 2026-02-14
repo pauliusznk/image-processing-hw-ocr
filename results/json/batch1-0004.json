@@ -1,0 +1,23 @@
+{
+  "document_type": "invoice",
+  "fields": {
+    "invoice_number": "16273983",
+    "date": "04/01/2017",
+    "seller": "Client:",
+    "buyer": "Reyes, Holloway and Lee",
+    "total_amount": "$ 744,60",
+    "vat_amount": null,
+    "currency": "$"
+  },
+  "ocr_text": "Invoice\nno: 16273983\nDate of issue:\n04/01/2017\nSeller:\nClient:\nReyes, Holloway and Lee\nCastillo LLC\n38676 Johnson Burg Suite 666\n70391 Kelsey Terrace\nWest Rebeccamouth, SD 02588\nGarcialand, VT 41740\nTax Id: 909-83-7738\nTax Id: 901-88-0463\nIBAN: GBOGVWUL52026848004193\nITEMS\nNo.\nDescription\nQty\nUM\nNet price\nNet worth\nVAT [%]\nGross\nworth\n1.\nHandmade Thick round warm\n4,00\neach\n44,99\n179,96\n10%\n197,96\ncrochet Rug Carpet Mat 97%\nacrylic 3% me Floor Decor\n2\nRug White Moroccan Beni\n2,00\neach\n245,00\n490,00\n10%\n539,00\nOurain Trellis Shag Area Rug\nAuthentic Handmade Carpet\n3\nAbstract\nLiving Room Carpet\n1,00\neach\n24,01\n24,01\n10%\n26,41\nHome Decor Nordic Style\nBedside Area Rug Floor Mats\nLeopard Printed Rug Skin Mat\n1,00\neach\n19,49\n19,49\n10%\n21,44\nLeather Faux Fur Animals Area\nRugs Home Carpets\n5\nlpc Exquisite Durable Foot\n2,00\neach\n15,57\n31,14\n10%\n34,25\nCloth Christmas Carpet Xmas\nCushion for Kitchen\nSUMMARY\nVAT [%]\nNet worth\nVAT\nGross worth\n10%\n744,60\n74,46\n819,06\nTotal\n$ 744,60\n$ 74,46\n$ 819,06",
+  "meta": {
+    "source_image": "dataset\\invoice\\batch1-0004.jpg",
+    "classification_confidence": 0.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 85.837,
+    "ocr_time_seconds": 10.537,
+    "classification_time_seconds": 12.584,
+    "extraction_time_seconds": 62.715
+  }
+}

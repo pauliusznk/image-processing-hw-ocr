@@ -1,0 +1,21 @@
+{
+  "document_type": "email",
+  "fields": {
+    "from": "LeVan, Suzanne",
+    "sent": "Friday, August 6, 1999 6.23 PM",
+    "to": "Rush; Sonya C.",
+    "subject": "Seelinag DiVarv Jo 1",
+    "content": "I had a conversation with Mary JO. Im fine with the follow up to the specific incident & the handling of the corporate affairs contribution. However Im really concerned (&very cynical) about what might be happening; suspect lhis was not by coincidence. Inn not sure how much it was preplanned_ but Mary Jo can share with several different scenarios that we brainstormed: Mary Jo promised to keep on alert for unusual activity in the current 3 markets and 'shouz3ink is to think about awyeihes there are any preventalive steps we can/take. Page 1 Mary long"
+  },
+  "ocr_text": "From:\nLeVan, Suzanne\nSent:\nFriday,\nAugust 6,\n1999 6.23 PM\nTo:\nRush; Sonya C.\nSubject:\nSeelinag DiVarv\nJo\n1\nI\nhad a\nconversation with Mary JO.\nIm fine with the follow up to the\nspecific incident & the handling of the corporate affairs contribution.\nHowever\nIm\nreally concerned (&very cynical) about what might be\nhappening;\nsuspect lhis was not by coincidence.\nInn not sure how much it\nwas\npreplanned_\nbut Mary Jo can share with several different scenarios that\nwe brainstormed:\nMary Jo promised to keep on alert for\nunusual activity in the current 3\nmarkets\nand\n'shouz3ink\nis\nto think about\nawyeihes\nthere are any preventalive\nsteps we can/\ntake.\nPage 1\nMary\nlong",
+  "meta": {
+    "source_image": "dataset\\email\\2070975926c_5927.jpg",
+    "classification_confidence": 0.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 36.747,
+    "ocr_time_seconds": 9.265,
+    "classification_time_seconds": 8.127,
+    "extraction_time_seconds": 19.355
+  }
+}
