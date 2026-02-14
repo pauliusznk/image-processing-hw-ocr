@@ -3,7 +3,7 @@ from __future__ import annotations
 from typing import Tuple
 from .llm import ollama_json
 
-LABELS = ["email", "invoice", "news", "receipt"]
+LABELS = ["email", "invoice", "news", "receipts"]
 
 def _rule_based(text: str) -> Tuple[str, float]:
     t = (text or "").lower()

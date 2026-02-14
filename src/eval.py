@@ -1,13 +1,14 @@
 from __future__ import annotations
 
 import os
+import time
 import pandas as pd
 import matplotlib.pyplot as plt
 
 from .pipeline import process_image
 from .utils import list_images, ensure_dirs
 
-LABELS = ["email", "invoice", "news", "receipt"]
+LABELS = ["email", "invoice", "news", "receipts"]
 
 def _true_label_from_path(path: str) -> str:
     # expects dataset/<label>/file.jpg
@@ -26,21 +27,40 @@ def run_batch(
     tesseract_lang: str = "eng",
     annotate: bool = False,
 ):
+    batch_start_time = time.time()
     ensure_dirs(outdir)
-    images = []
-    # prefer dataset/<label>/*
+
+    # Collect images per label
+    label_images = {}
     for lab in LABELS:
         p = os.path.join(dataset_dir, lab)
         if os.path.isdir(p):
-            images.extend(list_images(p))
-    if not images:
+            label_images[lab] = list_images(p)
+
+    # If no label folders found, fallback to flat directory
+    if not label_images:
         images = list_images(dataset_dir)
+    else:
+        # Apply limit proportionally across labels
+        images = []
+        if limit and limit > 0:
+            per_label = limit // len(label_images)
+            remainder = limit % len(label_images)
+            for idx, (lab, lab_imgs) in enumerate(label_images.items()):
+                # Add extra image to first 'remainder' labels to distribute evenly
+                take = per_label + (1 if idx < remainder else 0)
+                images.extend(lab_imgs[:take])
+                print(f"Taking {min(take, len(lab_imgs))}/{len(lab_imgs)} from {lab}")
+        else:
+            # No limit, take all
+            for lab_imgs in label_images.values():
+                images.extend(lab_imgs)
 
-    if limit and limit > 0:
-        images = images[:limit]
-
+    print(f"Processing {len(images)} images...")
     rows = []
-    for img_path in images:
+    for idx, img_path in enumerate(images, 1):
+        print(f"[{idx}/{len(images)}] {os.path.basename(img_path)}")
+        img_start = time.time()
         res = process_image(
             image_path=img_path,
             outdir=outdir,
@@ -49,6 +69,7 @@ def run_batch(
             tesseract_lang=tesseract_lang,
             annotate=annotate,
         )
+        img_time = time.time() - img_start
         pred = res.get("document_type")
         true = _true_label_from_path(img_path)
         rows.append({
@@ -57,21 +78,34 @@ def run_batch(
             "pred_label": pred,
             "confidence": res.get("meta", {}).get("classification_confidence"),
             "method": res.get("meta", {}).get("classification_method"),
+            "processing_time": res.get("meta", {}).get("processing_time_seconds", img_time),
         })
 
     df = pd.DataFrame(rows)
     metrics_path = os.path.join(outdir, "metrics", "predictions.csv")
     df.to_csv(metrics_path, index=False)
 
+    batch_total_time = time.time() - batch_start_time
+
     # accuracy (ignore unknown)
     df_known = df[df["true_label"].isin(LABELS)]
     acc = (df_known["true_label"] == df_known["pred_label"]).mean() if len(df_known) else 0.0
+
+    # timing statistics
+    avg_time = df["processing_time"].mean() if "processing_time" in df.columns else 0.0
+    min_time = df["processing_time"].min() if "processing_time" in df.columns else 0.0
+    max_time = df["processing_time"].max() if "processing_time" in df.columns else 0.0
 
     summary_path = os.path.join(outdir, "metrics", "summary.txt")
     with open(summary_path, "w", encoding="utf-8") as f:
         f.write(f"Images: {len(df)}\n")
         f.write(f"Known-label images: {len(df_known)}\n")
         f.write(f"Accuracy: {acc:.3f}\n")
+        f.write(f"\n=== Timing Statistics ===\n")
+        f.write(f"Total batch time: {batch_total_time:.2f}s\n")
+        f.write(f"Average per image: {avg_time:.3f}s\n")
+        f.write(f"Min time: {min_time:.3f}s\n")
+        f.write(f"Max time: {max_time:.3f}s\n")
 
     # confusion matrix plot
     if len(df_known):
@@ -98,8 +132,13 @@ def run_batch(
         plt.savefig(plot_path, dpi=150)
         plt.close()
 
+    print(f"\n=== Results ===")
     print(f"Saved: {metrics_path}")
     print(f"Saved: {summary_path}")
     if os.path.exists(os.path.join(outdir, "metrics", "confusion_matrix.png")):
         print(f"Saved: {os.path.join(outdir, 'metrics', 'confusion_matrix.png')}")
-    print(f"Accuracy: {acc:.3f}")
+    print(f"\nAccuracy: {acc:.3f}")
+    print(f"\n=== Timing ===")
+    print(f"Total batch time: {batch_total_time:.2f}s")
+    print(f"Average per image: {avg_time:.3f}s")
+    print(f"Images processed: {len(df)}")
