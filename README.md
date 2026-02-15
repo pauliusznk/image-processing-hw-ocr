@@ -1,6 +1,3 @@
-# IMAGE-PROCESSING-HW-OCR
-# image-processing-hw-ocr
-
 OCR pagrindu veikiantis dokumentų analizės projektas, skirtas:
 - teksto išgavimui iš vaizdų,
 - dokumento tipo klasifikavimui,
