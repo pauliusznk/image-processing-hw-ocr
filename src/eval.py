@@ -6,7 +6,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 from .pipeline import process_image
-from .utils import list_images, ensure_dirs
+from .utils import list_images, ensure_dirs, get_timestamp_prefix
 
 LABELS = ["email", "invoice", "news", "receipts"]
 
@@ -82,7 +82,8 @@ def run_batch(
         })
 
     df = pd.DataFrame(rows)
-    metrics_path = os.path.join(outdir, "metrics", "predictions.csv")
+    timestamp = get_timestamp_prefix()
+    metrics_path = os.path.join(outdir, "metrics", f"{timestamp}-predictions.csv")
     df.to_csv(metrics_path, index=False)
 
     batch_total_time = time.time() - batch_start_time
@@ -96,7 +97,7 @@ def run_batch(
     min_time = df["processing_time"].min() if "processing_time" in df.columns else 0.0
     max_time = df["processing_time"].max() if "processing_time" in df.columns else 0.0
 
-    summary_path = os.path.join(outdir, "metrics", "summary.txt")
+    summary_path = os.path.join(outdir, "metrics", f"{timestamp}-summary.txt")
     with open(summary_path, "w", encoding="utf-8") as f:
         f.write(f"Images: {len(df)}\n")
         f.write(f"Known-label images: {len(df_known)}\n")
@@ -127,7 +128,7 @@ def run_batch(
         plt.xlabel("Predicted")
         plt.ylabel("True")
         plt.title(f"Confusion Matrix (acc={acc:.3f})")
-        plot_path = os.path.join(outdir, "metrics", "confusion_matrix.png")
+        plot_path = os.path.join(outdir, "metrics", f"{timestamp}-confusion_matrix.png")
         plt.tight_layout()
         plt.savefig(plot_path, dpi=150)
         plt.close()
@@ -135,8 +136,9 @@ def run_batch(
     print(f"\n=== Results ===")
     print(f"Saved: {metrics_path}")
     print(f"Saved: {summary_path}")
-    if os.path.exists(os.path.join(outdir, "metrics", "confusion_matrix.png")):
-        print(f"Saved: {os.path.join(outdir, 'metrics', 'confusion_matrix.png')}")
+    plot_path_check = os.path.join(outdir, "metrics", f"{timestamp}-confusion_matrix.png")
+    if os.path.exists(plot_path_check):
+        print(f"Saved: {plot_path_check}")
     print(f"\nAccuracy: {acc:.3f}")
     print(f"\n=== Timing ===")
     print(f"Total batch time: {batch_total_time:.2f}s")

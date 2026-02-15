@@ -5,19 +5,19 @@
     "to": [
       "Chaikin; Karen"
     ],
-    "subject": "RE; Focus Groupsldebrief",
+    "subject": "RE: Focus Groups debrief",
     "date": "Thursday, August 05, 1999 10.51 AM",
-    "content": "have a conflict--sorry, but would Iike to in my 2 cents before we make changes Carolyn YSP 917-663-2253 Levy, put_ Levy"
+    "content": null
   },
   "ocr_text": "Cusato, Denise_\nI\nFrom:\nCarolyn J\nSent:\nThursday, August 05, 1999 10.51 AM\nTo:\nChaikin; Karen\nSubject:\nRE; Focus Groupsldebrief\nhave a conflict--sorry, but\nwould Iike to\nin my 2 cents before we make changes\nCarolyn\nYSP\n917-663-2253\nLevy,\nput_\nLevy",
   "meta": {
     "source_image": "dataset\\email\\2070045922a.jpg",
-    "classification_confidence": 0.0,
+    "classification_confidence": 0.98,
     "classification_method": "llm",
     "ocr_engine": "easyocr",
-    "processing_time_seconds": 28.648,
-    "ocr_time_seconds": 9.256,
-    "classification_time_seconds": 6.143,
-    "extraction_time_seconds": 13.249
+    "processing_time_seconds": 39.444,
+    "ocr_time_seconds": 9.109,
+    "classification_time_seconds": 10.031,
+    "extraction_time_seconds": 20.304
   }
 }
