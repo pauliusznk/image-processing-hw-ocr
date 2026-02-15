@@ -1,3 +1,4 @@
+# Image Processing Home Work
 OCR pagrindu veikiantis dokumentų analizės projektas, skirtas:
 - teksto išgavimui iš vaizdų,
 - dokumento tipo klasifikavimui,
