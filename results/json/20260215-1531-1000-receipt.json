@@ -1,0 +1,23 @@
+{
+  "document_type": "receipts",
+  "fields": {
+    "invoice_number": "69923",
+    "total_amount": "$456.58",
+    "from": null,
+    "subject": null,
+    "title": null,
+    "content": "GFEEN FIELD\n5305\nE PaciFiC coaST hwy\nLong Beach CA 90804\n(562) 597-0906 Server Franc is Stat ion : 1 Order Dine In Ie BII Guests 2 Co f fee 3.00 2 Lunch 45.90 Coke 3.00 SUB TOTAL: $51.90 Tax I: $4.60 TOTAL; $456.58\nTHANK YOU ! Tab",
+    "summary": null
+  },
+  "ocr_text": "GFEEN FIELD\n5305\nE PaciFiC coaST hwy\nLong Beach\nCa 90804\n(562)\n597-0906\nServer\nFranc is\nStat ion :\n1\nOrder\n69923\nDine\nIn\nIe\nBII\nGuests\n2\nCo f fee\n3.00\n2 Lunch\n45.90\nCoke\n3.00\nSUB   TOTAL:\n51.90\nTax I:\n4.60\nTOTAL;\n456.58\n5/26/2016 12.53:10 PM\nTHANK  YOU !\nTab",
+  "meta": {
+    "source_image": "dataset\\receipts\\1000-receipt.jpg",
+    "classification_confidence": 0.99,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 48.498,
+    "ocr_time_seconds": 2.779,
+    "classification_time_seconds": 14.783,
+    "extraction_time_seconds": 30.936
+  }
+}

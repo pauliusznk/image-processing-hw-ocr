@@ -1,0 +1,23 @@
+{
+  "document_type": "receipts",
+  "fields": {
+    "store": null,
+    "total_amount": "69 USD",
+    "from": null,
+    "subject": null,
+    "title": null,
+    "content": "GRANI) IITX CAFR\nRoosevelt Field\n0480\nTABLE 101\n#Party 3\nSTEPHEN R\nSvrCk:\n4 16,43 04/25/15\nCoffee\n2.95\nChicken Parmesan\n17.95\nPr=Top Sirloin\n25.95\nThe Bacon-Cheese Burger\n13.95\nCoffee\n2.95\nSub Total: 63 .75\nTax: 5.50\nSub Total\n69.25\n04/25 17\nTOTAL:\n69 USD",
+    "summary": null
+  },
+  "ocr_text": "GRANI) IITX CAFR\nRoosevelt Field\n0480\nTABLE 101\n#Party 3\nSTEPHEN R\nSvrCk:\n4 16,43 04/25/15\nCoffee\n2.95\nChicken Parmesan\n17.95\nPr=\nTop Sirloin\n25.95\nThe Bacon-Cheese Burger\n13.95\nCoffee\n2.95\nSub Total:\n63 .75\nTax:\n5.50\nSub Total\n69.25\n04/25 17\nTOTAL:\n69\n25\nGratuity Not Included\nSuggested Gratuity:\n20%\n13.85\n18%\n12.47\n158\n10.39\nIt's been\npleasure to serve you.\nThank Y0u for dining with us\nime\n':42",
+  "meta": {
+    "source_image": "dataset\\receipts\\1001-receipt.jpg",
+    "classification_confidence": 0.98,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 63.821,
+    "ocr_time_seconds": 2.673,
+    "classification_time_seconds": 23.236,
+    "extraction_time_seconds": 37.912
+  }
+}

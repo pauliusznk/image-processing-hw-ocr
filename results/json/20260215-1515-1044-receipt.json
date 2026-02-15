@@ -1,0 +1,25 @@
+{
+  "document_type": "invoice",
+  "fields": {
+    "acknowledgment_number": "ACKEN 24717",
+    "address_line1": "7635 WINNETRA CANIGA Pa CA",
+    "zip_code": "818 5760483",
+    "sender_country": "EeEai",
+    "receiver_country": "97C LT",
+    "currency": null,
+    "invoice_number": null,
+    "date_of_issue": null,
+    "total_amount": "$ 9.99"
+  },
+  "ocr_text": "ChurCH\"$\nAckEN 24717\n7635 WINNETRA\nCANIGA Pa CA\n818 5760483\nEeEai\n97C LT\n9.99\n10\n94\nCASI\nI.Co\nCH4G\nUaateuannuhneaErt+\nTLALR LluCOE AGaim 44\nLISBETh\n[l7ea\n0213-20457.202 [AY.21'19\nREGu0o2",
+  "meta": {
+    "source_image": ".\\dataset\\receipts\\1044-receipt.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 45.681,
+    "ocr_time_seconds": 1.904,
+    "classification_time_seconds": 13.085,
+    "extraction_time_seconds": 30.583
+  }
+}
