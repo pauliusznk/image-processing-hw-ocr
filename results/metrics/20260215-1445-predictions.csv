@@ -1,0 +1,9 @@
+image,true_label,pred_label,confidence,method,processing_time
+dataset\email\2070045922a.jpg,email,email,0.98,llm,45.64
+dataset\email\2070361099.jpg,email,email,0.98,llm,60.149
+dataset\invoice\batch1-0002.jpg,invoice,invoice,1.0,llm,170.795
+dataset\invoice\batch1-0003.jpg,invoice,invoice,0.65,rules_fallback,118.957
+dataset\news\0000114117.jpg,news,news,1.0,llm,92.764
+dataset\news\0000162076.jpg,news,news,0.45,rules_fallback,270.68
+dataset\receipts\1000-receipt.jpg,receipts,receipts,0.99,llm,49.862
+dataset\receipts\1001-receipt.jpg,receipts,receipts,0.98,llm,66.863

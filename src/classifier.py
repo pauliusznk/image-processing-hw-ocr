@@ -12,15 +12,28 @@ def _rule_based(text: str) -> Tuple[str, float]:
     if ("from:" in t and "to:" in t) or ("subject:" in t and "from:" in t):
         return "email", 0.65
 
-    # Invoice-ish
-    if "invoice" in t or "vat" in t or "invoice no" in t or "bill to" in t:
+    # Receipt-ish (check BEFORE invoice to avoid confusion)
+    if "receipt" in t:
+        return "receipts", 0.70
+    # Receipts are shorter, simpler, often have store names at top
+    if ("total" in t or "subtotal" in t) and ("cash" in t or "card" in t or "payment" in t):
+        return "receipts", 0.60
+    # Receipt-specific patterns
+    if ("thank you" in t or "come again" in t) and "total" in t:
+        return "receipts", 0.65
+
+    # Invoice-ish (more formal, has specific invoice markers)
+    if "invoice no" in t or "invoice number" in t or "invoice #" in t:
+        return "invoice", 0.75
+    if "bill to" in t or ("seller" in t and "buyer" in t):
+        return "invoice", 0.70
+    # Only invoice if explicit invoice keyword present
+    if "invoice" in t and ("date of issue" in t or "due date" in t or "buyer" in t):
         return "invoice", 0.65
 
-    # Receipt-ish
-    if "total" in t and ("eur" in t or "usd" in t or "cash" in t or "card" in t):
-        return "receipt", 0.55
-    if "receipt" in t:
-        return "receipt", 0.65
+    # Generic money document (lower confidence)
+    if "total" in t and ("eur" in t or "usd" in t or "$" in t or "€" in t):
+        return "receipts", 0.45  # default to receipt for generic money docs
 
     # News/article-ish
     if "by " in t and ("published" in t or "updated" in t):
@@ -42,9 +55,15 @@ Task:
 1) Classify the document into exactly ONE label from: {LABELS}
 2) Return STRICT JSON only.
 
+IMPORTANT - Key differences:
+- **invoice**: Formal business document with seller/buyer info, invoice number, VAT breakdown, payment terms, "Bill To", "Date of Issue". Usually multi-party (company to company/client).
+- **receipts**: Simple proof of purchase from store/restaurant. Has store name, items purchased, total, payment method (cash/card). Usually says "Receipt" or "Thank you". Single-party transaction.
+- **email**: Has email headers (From:, To:, Subject:, Date:, CC:).
+- **news**: Article or news page with title, author, published date, long text content.
+
 JSON schema:
 {{
-  "document_type": "email|invoice|news|receipt",
+  "document_type": "email|invoice|news|receipts",
   "confidence": 0.0
 }}
 

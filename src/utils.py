@@ -3,9 +3,14 @@ from __future__ import annotations
 import json
 import os
 from typing import List, Dict, Any
+from datetime import datetime
 import cv2
 
 IMAGE_EXTS = {".jpg", ".jpeg", ".png", ".bmp", ".tif", ".tiff", ".webp"}
+
+def get_timestamp_prefix() -> str:
+    """Returns timestamp in format YYYYMMDD-HHMM for file prefixes."""
+    return datetime.now().strftime("%Y%m%d-%H%M")
 
 def ensure_dirs(outdir: str):
     os.makedirs(outdir, exist_ok=True)

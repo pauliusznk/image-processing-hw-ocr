@@ -3,7 +3,7 @@ import time
 from .ocr import ocr_image
 from .classifier import classify_document
 from .extractor import extract_fields
-from .utils import save_json, save_annotated_image, ensure_dirs
+from .utils import save_json, save_annotated_image, ensure_dirs, get_timestamp_prefix
 
 def process_image(
     image_path: str,
@@ -49,13 +49,16 @@ def process_image(
     })
 
     base = os.path.splitext(os.path.basename(image_path))[0]
-    json_path = save_json(data, os.path.join(outdir, "json"), base + ".json")
+    timestamp = get_timestamp_prefix()
+    json_filename = f"{timestamp}-{base}.json"
+    json_path = save_json(data, os.path.join(outdir, "json"), json_filename)
 
     if annotate and ocr.get("boxes"):
+        annotated_filename = f"{timestamp}-{base}_boxes.jpg"
         save_annotated_image(
             image_path=image_path,
             boxes=ocr["boxes"],
-            out_path=os.path.join(outdir, "annotated_images", base + "_boxes.jpg"),
+            out_path=os.path.join(outdir, "annotated_images", annotated_filename),
         )
 
     print(f"⏱️  Processing time: {total_time:.3f}s (OCR: {ocr_time:.3f}s, Classify: {classify_time:.3f}s, Extract: {extract_time:.3f}s)")
