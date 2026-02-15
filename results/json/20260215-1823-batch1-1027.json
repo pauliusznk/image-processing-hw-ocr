@@ -1,0 +1,53 @@
+{
+  "document_type": "invoice",
+  "fields": {
+    "invoice_number": "79587541",
+    "date_of_issue": "08/02/2014",
+    "seller": [
+      "Baker-Wagner",
+      "Horton, Gillespie and Moore"
+    ],
+    "client": "Client: Joelfort; NH 24372\nEast Mindy, WY 58533",
+    "tax_id_1": "971-99-0928",
+    "tax_id_2": "965-80-2789",
+    "iban": "GBZ4KUOP15238222815223",
+    "items": [
+      {
+        "item_number": 1,
+        "description": "Bottle tops lid reusable",
+        "quantity": 1.0,
+        "unit_measurement": null,
+        "net_price": "9.99",
+        "gross_worth": "10.99"
+      },
+      {
+        "item_number": 2,
+        "description": "vacuume sealer stopper flip cap cork wine beer",
+        "quantity": 1.0,
+        "unit_measurement": null,
+        "net_price": "9.99",
+        "gross_worth": "10.99"
+      }
+    ],
+    "summary": {
+      "vat_percentage": 10,
+      "net_worth": "$ 10.99",
+      "gross_worth": "$ 10.99"
+    },
+    "total": {
+      "amount": "$ 10.99",
+      "currency": null
+    }
+  },
+  "ocr_text": "Invoice\nno: 79587541\nDate of issue:\n08/02/2014\nSeller:\nClient:\nBaker-Wagner\nHorton, Gillespie and Moore\n909 Duarte Drive Apt: 874\n711 Richard Cove Suite 885\nJoelfort; NH 24372\nEast Mindy, WY 58533\nTax Id: 971-99-0928\nTax Id: 965-80-2789\nIBAN: GBZ4KUOP15238222815223\nITEMS\nNo.\nDescription\nQty\nUM\nNet price\nNet worth\nVAT [%]\nGross\nworth\nBottle tops lid reusable\n1,00\neach\n9,99\n9,99\n10%\n10,99\nvacuume sealer stopper flip cap\ncork wine beer\nSUMMARY\nVAT [%]\nNet worth\nVAT\nGross worth\n10%\n9,99\n1,00\n10,99\nTotal\n$ 9,99\n$ 1,00\n$ 10,99",
+  "meta": {
+    "source_image": "dataset\\invoice\\batch1-1027.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 92.666,
+    "ocr_time_seconds": 9.181,
+    "classification_time_seconds": 25.438,
+    "extraction_time_seconds": 58.048
+  }
+}

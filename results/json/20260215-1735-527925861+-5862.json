@@ -1,0 +1,35 @@
+{
+  "document_type": "email",
+  "fields": {
+    "from": "Cathey Yoe",
+    "to": [
+      "CeB"
+    ],
+    "cc": null,
+    "bcc": null,
+    "primary_date": "1995-10-31T15:48:00Z",
+    "last_modified_date": "1995-12-20T13:54:00Z",
+    "last_touched_date": null,
+    "sent_date": "1995-10-31T15:44:00Z",
+    "received_date": "1995-10-31T15:48:00Z",
+    "subject": null,
+    "attachments": [
+      "DALLY BULLETIN_DAILY BULLETN.",
+      "DAILY BULLETIN."
+    ],
+    "content": null,
+    "title": null,
+    "summary": null
+  },
+  "ocr_text": "From: Cathey Yoe\nTo: CeB\nRemes, David; C&B\nKighllinger, Mark; Buckley, Pat; Cole, Ron W:; Cruz,\nCynthia; DeButts, C Read; Ellis, Jim; Fackler, Bob; Fox, William; Gallagher, Elizabeth;\nGallant; Karl; Goodycar; Douglas; Graves,\nHennes, Bruce; Holland, Toussaint L;\nMayfield, Marlin; Mitchcll, Susan; Robcrts , Yvonne; Schmidl, Jeff; Schuman, Bob;\nSuggs; Michael L;; Synhorst; Tom; Vigneault, J. J; Wallon, Ken; Baker; Karen M;\nBRINKLY, C; Carler;\nB:; Carlcr; Pcggy C ; Cockman, Michacl; Ellis, Maura P;\nHutchens, Lynn F; HYDE; TIM; Jackson, Priscilla; Lester, Frank; LOSER , GARY;\nLowslelter; Jean S;; MEYNE, ROB; Milder,\nPadalino, Janet; Phillips, Mikc W:\nSingleton, John W_\nSmith, Mark D;; Vicki Speas; Hcnry Stokes; Stone, Robert;\nTompson, Randy; Walker, Nat; Williams, Richard L;; Louis Church; Eubanks, Linda D;;\nLora Needham; Fish; John; Foreman; Donald D:; Eric Lundgren; Kar] Maher; John\nByron Nelson; Greg Osman\nCC:\nBCC:\nPrimary Date: 10/31/1995 3.48.00 PM\nLast Modified Date: 2001-Nov-20 13.54.00\nLast Touched Date:\nSent Date: 1995-Oct-31 15.44.0\nReceived Date; 1995-Oct-31 15.48.00\nSubject; TI Daily Bulletin 10/31/95\nAttachments:\nDALLY BULLETIN_DAILY BULLETN.\nDAILY BULLETIN.\n~PUBLIC AFFAIRS DIVISION,\nTHE TOBACCO INSTITUTE_\nTuesday\nOctober 31, 1995\nIN REVEEW,_IN REVEEW_IN REVIEW_\nUS HOUSE leadership has delayed consideration of conference report to HR202O ,\nTreasury/Postal appropriations_controversy conlinues ovcr proposed limits On political\nadvocacy by groups recei-\nfederal funds__conference reporl includes revised version\nof Senate' s ban on vending and sampling on fcderal property that is open to minors\nNEW JERSEY Governor Whitman lloaled Arial balloon last wcek On possible cigarctlc\nand alcohol lax hikes for indigcnt hcalth carc _no lcgislativc action on proposcd 15-cent\n8\ntax hike is expected until after next week'$ election;\ng\nRjrO000000502030723\n70016 8805\nGreg;\nKay\nAlly;\nving",
+  "meta": {
+    "source_image": "dataset\\email\\527925861+-5862.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 98.335,
+    "ocr_time_seconds": 12.057,
+    "classification_time_seconds": 34.499,
+    "extraction_time_seconds": 51.778
+  }
+}

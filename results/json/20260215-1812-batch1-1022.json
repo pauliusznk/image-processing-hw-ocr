@@ -1,0 +1,49 @@
+{
+  "document_type": "invoice",
+  "fields": {
+    "invoice_number": "76658127",
+    "date_of_issue": "10/23/2011",
+    "seller": "Crawford-Byrd Sherman PLC",
+    "client": "Client: Crawford-Byird Sherman PLC, Box 5976, APO AA 60940, Chapman Loop, Torresside MS 13114",
+    "tax_id_seller": "922-97-5588",
+    "tax_id_client": "973-85-9820",
+    "iban": null,
+    "items": [
+      {
+        "item_number": 1,
+        "description": "Women Black Dress Mori Girl",
+        "quantity": 4.0,
+        "unit_price": "13.99"
+      },
+      {
+        "item_number": 2,
+        "description": "Puff Sleeve Korean Casual Loose Peter Pan Collar BCBG Maxazria dress XS",
+        "quantity": 2.0,
+        "unit_price": "20.00"
+      },
+      {
+        "item_number": 3,
+        "description": "NWT J Crew Silk Wedding Dress",
+        "quantity": 1.0,
+        "unit_price": "395.00"
+      }
+    ],
+    "summary": {
+      "vat_percentage": 10,
+      "net_worth": "$ 570.91",
+      "gross_worth": "$ 628.00"
+    },
+    "currency": null
+  },
+  "ocr_text": "Invoice\nno: 76658127\nDate of issue:\n10/23/2011\nSeller:\nClient:\nCrawford-Byrd\nSherman PLC\nPSC 3342, Box 5976\n8359 Chapman Loop\nAPO AA 60940\nTorresside, MS 13114\nTax Id: 922-97-5588\nTax Id: 973-85-9820\nIBAN: GB21ZEZG69535709532307\nITEMS\nNo.\nDescription\nQty\nUM\nNet price\nNet worth\nVAT [%]\nGross\nworth\n1.\nWomen Black Dress Mori Girl\n4,00\neach\n13,99\n55,96\n10%\n61,56\nPuff Sleeve Korean Casual\nLoose Peter Pan Collar\n2\nBCBG Maxazria dress XS\n4,00\neach\n20,00\n80,00\n10%\n88,00\n3\nNWT J Crew Silk Wedding Dress\n1,00\neach\n395,00\n395,00\n10%\n434,50\nDivided Black Asymmetrical\n5,00\neach\n7,99\n39,95\n10%\n43,95\nDress -size 8\nNWT\nSUMMARY\nVAT [%]\nNet worth\nVAT\nGross worth\n10%\n570,91\n57,09\n628,00\nTotal\n$ 570,91\n$ 57,09\n$ 628,00",
+  "meta": {
+    "source_image": "dataset\\invoice\\batch1-1022.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 131.923,
+    "ocr_time_seconds": 10.82,
+    "classification_time_seconds": 49.017,
+    "extraction_time_seconds": 72.085
+  }
+}

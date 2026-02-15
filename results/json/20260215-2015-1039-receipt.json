@@ -1,0 +1,23 @@
+{
+  "document_type": "receipts",
+  "fields": {
+    "store": null,
+    "total_amount": "$930.78",
+    "from": null,
+    "subject": null,
+    "title": null,
+    "content": "",
+    "summary": null
+  },
+  "ocr_text": "3\n1S\nJ\n3\n1x\nSa\n4\n2 -\n5 3\n%w7\nEr @I5\n\"\n71\n335\nTer\nIetru !\n0\nL\n1\n26\n930,78\n2\nT\n\"\nF\n3\n3\n\"",
+  "meta": {
+    "source_image": "dataset\\receipts\\1039-receipt.jpg",
+    "classification_confidence": 0.95,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 33.318,
+    "ocr_time_seconds": 2.616,
+    "classification_time_seconds": 11.818,
+    "extraction_time_seconds": 18.884
+  }
+}

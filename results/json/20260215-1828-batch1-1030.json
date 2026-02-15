@@ -1,0 +1,23 @@
+{
+  "document_type": "invoice",
+  "fields": {
+    "invoice_number": "93062905",
+    "date": "08/16/2014",
+    "seller": "Client:",
+    "buyer": "Gaines, Wilson and Garner",
+    "total_amount": null,
+    "vat_amount": null,
+    "currency": "$"
+  },
+  "ocr_text": "Invoice\nno: 93062905\nDate of issue:\n08/16/2014\nSeller:\nClient:\nGaines, Wilson and Garner\nAnderson Group\n71105 Maxwell Shoal\n1908 Peters Burg\nPort Jeffrey , GA 72855\nWest Ericaville, MS 94742\nTax Id: 920-97-1776\nTax Id: 906-90-6958\nIBAN: GBZGBGEN59099349063514\nITEMS\nNo.\nDescription\nQty\nUM\nNet price\nNet worth\nVAT [%]\nGross\nworth\nLuLaRoe Nicole Dress Size\n1,00\neach\n1,99\n1,99\n10%\n2,19\nMedium 12\n2\nBoden Size 8 US Green &\n4,00\neach\n35,00\n140,00\n10%\n154,00\nDark Blue Belted Midi Wool Knit\nSweater Fall Dress\n3\nNWT J.Crew Silk Wedding Dress\n3,00\neach\n395,00\n1 185,00\n10%\n1 303,50\nJohnny Was Medium Linen Wrap\n1,00\neach\n89,99\n89,99\n10%\n98,99\nDress Dessert Rose Embroiderd\nBohemian\n5\nPre-Owned Women's Nah Nah\n3,00\neach\n12,99\n38,97\n10%\n42,87\nDress Size 8 Black Sheer Formal\n6\nLands End Womens 3/4 Sleeve\n5,00\neach\n21,23\n106,15\n10%\n116,77\nDress Plus 3X Navy Blue Floral\nCotton Knit 482038\nSCOTT McCINTOCK SIZE 12\n3,00\neach\n25,00\n75,00\n10%\n82,50\nBLACK PARTY DRESS WITH\nSPARKLIND TOP\nSUMMARY\nVAT [%]\nNet worth\nVAT\nGross worth\n10%\n1 637,10\n163,71\n1 800,81\nTotal\n$ 1 637,10\n$ 163,71\n$ 1 800,81\nNavy\nSexy",
+  "meta": {
+    "source_image": "dataset\\invoice\\batch1-1030.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 155.271,
+    "ocr_time_seconds": 12.06,
+    "classification_time_seconds": 40.371,
+    "extraction_time_seconds": 102.839
+  }
+}

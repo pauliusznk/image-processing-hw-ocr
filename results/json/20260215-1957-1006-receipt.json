@@ -1,0 +1,23 @@
+{
+  "document_type": "invoice",
+  "fields": {
+    "invoice_number": null,
+    "date": null,
+    "seller": null,
+    "buyer": null,
+    "total_amount": null,
+    "vat_amount": null,
+    "currency": null
+  },
+  "ocr_text": "Akira\nNY 4277\n618-4434-8880\nKhan\nExrhlgrewa-conk2\n8J7 Pickup\nPhi\nWER\nAiChk Steakikj\nMed\nDeluxe\nGienmont Roll\n515.95\nPnilly\n38.301\nSp Tuna\nSalmon [\n55 50\nutil\nUnpald\nalentant\nLne !\n521795\nKpodr\nSuthi\n570.75\n51300\nSuA\n591.58",
+  "meta": {
+    "source_image": "dataset\\receipts\\1006-receipt.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 59.925,
+    "ocr_time_seconds": 0.924,
+    "classification_time_seconds": 13.952,
+    "extraction_time_seconds": 45.049
+  }
+}

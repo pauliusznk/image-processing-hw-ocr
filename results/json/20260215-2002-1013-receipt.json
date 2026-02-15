@@ -1,0 +1,29 @@
+{
+  "document_type": "receipts",
+  "fields": {
+    "store": "Albetos Mexican Food",
+    "location": "11732 Artesia Blvd, Artesia, CA _",
+    "phone_number": "(562)  860-2530",
+    "order_id": "# 01029",
+    "item_name": "3 Asada Tacos",
+    "quantity": 3,
+    "unit_price": "$ 2.77",
+    "tax_rate": null,
+    "subtotal": "$ 8.85",
+    "tax_amount": "$ 0.73",
+    "total": "$ 9.58",
+    "payment_method": "ATM",
+    "atm_fee": "$ 0.75"
+  },
+  "ocr_text": "ALBETOS\nMEXICAN\nFOOD\n11732 ARTESIA BLVD ,\nARTESIA,CA _\nPh:; (562)  860-2530\nPHONE ORDERS WELCOME\nORDER\n#\n01029\n3 ASADA TACO\n8,10\nATM CHARGE\n0,75\nSUBTOTAL\n8,85\ntAX TOTAL\n8\n0,73\nTOTAL\n$\n9,58\nATM\n9,58\nRECALL\n636",
+  "meta": {
+    "source_image": "dataset\\receipts\\1013-receipt.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 53.513,
+    "ocr_time_seconds": 2.03,
+    "classification_time_seconds": 23.303,
+    "extraction_time_seconds": 28.179
+  }
+}

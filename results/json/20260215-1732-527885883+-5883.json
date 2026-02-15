@@ -1,0 +1,37 @@
+{
+  "document_type": "email",
+  "fields": {
+    "from_name": "Lester Frank G.",
+    "to_names": [
+      "Michael L. Suggs",
+      "Bob Hesse, David Powers",
+      "Gene Ainsworth",
+      "Henry Stokes",
+      "Joe Murray"
+    ],
+    "cc_names": [],
+    "bcc_names": [],
+    "primary_date": "2000-06-21 15:02:53",
+    "last_modified_date": "2000-06-21 15:02:53",
+    "last_touched_date": null,
+    "sent_date": "2000-06-21 15:02:53",
+    "received_date": "2000-06-21 15:02:53",
+    "subject": "Inter-Company Meeting",
+    "attachments": [
+      "WSmetng doc"
+    ],
+    "content": null,
+    "summary": null
+  },
+  "ocr_text": "From;Lester; Frank G.\nTo:Suggs; Michael L;; Hesse, Bob; David Powers; Gene Ainsworth; Henry Stokes; Joe\nMurray; M. Hurst Marshall; Mike Phillips; Randy Tompson; Roger Mozingo; Ron Cole\nCC;\nBCC:\nPrimary Date: 6/21/2000 3.02.53 PM\nLast Modified Date: 2000-Jun-21 15.02.53\nLast Touched Date:\nSent Date: 2000-Jun-21 15.02.53\nReceived Date: 2000-Jun-21 15.02.53\nSubject; Inter-Company Meeting\nAttachments:\nWSmetng doc\nnnttttnttttttttt\nOn\nThursday and Friday, June 29-30, we are having reps from B&W and Lorillard to\ndiscuss our localllegislative support activities We are going to meet on Friday from 8.30\nAM\n3.00 PM in the lth fl. conference room: You are all welcome to come by and\nparticipate or just say hello to some of the folks gathered.\nOn Thursday we are having cocktails and dinner at Ryans You are all invited Please sce\nthe attached agenda for additional information: Please let Judy and I know by Friday or\nMonday whether you will be able to attend the dinner:\nThanks,\nFrank\nAttendees\nFrank Lester\nByron Nelson\nRon Cole\nJudy Albert\nBen Kalehan\nLorillard\nWindy Leavell\nB&WILorillard\nTim McKinney -B&W\nStacy Rutherford\nBeW\nHeather Sidwell\nC&B\n8\nRJRI137127832\n70007 4212\n3",
+  "meta": {
+    "source_image": "dataset\\email\\527885883+-5883.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 103.818,
+    "ocr_time_seconds": 10.438,
+    "classification_time_seconds": 53.898,
+    "extraction_time_seconds": 39.48
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "document_type": "receipts",
+  "fields": {
+    "store": "Dona Mercedes Restaurant",
+    "location": "1030 1/2 San Fernando Rd, San Fernando CA 91341",
+    "date": null,
+    "from": null,
+    "subject": null,
+    "title": null,
+    "content": "Platanos Orden $7.75\nDiet coke $1.50\n2 Quesadilla salvadorena $4.00\n3 Pupusa Queso $6.75",
+    "total_amount": "$24.47",
+    "tax": "$2.22"
+  },
+  "ocr_text": "Dona Mercedes Restaurant\n1030 1/2 San Fernando Rd\nSan Fernando CA 91341\nVero\nCENTERL\nCHicharon\n$2.25\n3 Pupusa Queso\n$6.75\n1\nPlatanos Orden\n$7.75\nDiet coke\n$1.50\n2 Quesadilla salvadorena\n$4.00\nSUBTOTAL: $22.25\nTAX: $2.22\nTOTAL: $24.47\nTIP SUGGESTIONS\n18%: $4.40\n20%: $4.89\n25%: $6.12\nThank Youl",
+  "meta": {
+    "source_image": "dataset\\receipts\\1008-receipt.jpg",
+    "classification_confidence": 0.97,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 56.268,
+    "ocr_time_seconds": 2.387,
+    "classification_time_seconds": 25.908,
+    "extraction_time_seconds": 27.973
+  }
+}

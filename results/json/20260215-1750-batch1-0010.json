@@ -1,0 +1,91 @@
+{
+  "document_type": "invoice",
+  "fields": {
+    "invoice_number": "99314100",
+    "date_of_issue": "2014-06-25",
+    "seller": [
+      "Michael, Farrell and Lee"
+    ],
+    "client": [
+      "Collins, Barrett and Schroeder"
+    ],
+    "address_line1": "95360 Washington Inlet",
+    "address_line2": "Beard Via",
+    "city": "Port Sandraview",
+    "state": "CT",
+    "zipcode": "01507",
+    "billing_address_line1": "",
+    "billing_address_line2": ""
+  },
+  "items": [
+    {
+      "item_number": 1,
+      "description": "Real Madrid Inflatable Chair",
+      "quantity": 5.0,
+      "unit_measurement": null,
+      "net_price": "43.95"
+    },
+    {
+      "item_number": 2,
+      "description": "60 Inches Marble Dinning Table",
+      "quantity": 1.0,
+      "unit_measurement": null,
+      "net_price": "5756.00"
+    },
+    {
+      "item_number": 3,
+      "description": "Top Inlay Work Lawn Table with Multi Color Stones",
+      "quantity": 1.0,
+      "unit_measurement": null,
+      "net_price": "5975.75"
+    }
+  ],
+  "summary": {
+    "vat_percentage": 10,
+    "gross_worth": [
+      {
+        "item_number": 1,
+        "amount": "$241.73"
+      },
+      {
+        "item_number": 2,
+        "amount": "$631.60"
+      },
+      {
+        "item_number": 3,
+        "amount": "$657.33"
+      }
+    ],
+    "total_vat": null,
+    "net_worth": [
+      {
+        "item_number": 1,
+        "amount": "$241.73"
+      },
+      {
+        "item_number": 2,
+        "amount": "$631.60"
+      },
+      {
+        "item_number": 3,
+        "amount": "$657.33"
+      }
+    ],
+    "total": {
+      "net_worth": "$1930.66",
+      "vat": null,
+      "gross_worth": "$2028.52"
+    }
+  },
+  "ocr_text": "Invoice\nno: 99314100\nDate of issue:\n06/25/2014\nSeller:\nClient:\nMichael, Farrell and Lee\nCollins, Barrett and Schroeder\n95360 Washington Inlet\n2314 Beard Via\nPort Sandraview, CT 01507\nKellybury, GA 19687\nTax Id: 993-76-1179\nTax Id: 908-81-7850\nIBAN: GBZOWFQR49970703277369\nITEMS\nNo.\nDescription\nQty\nUM\nNet price\nNet worth\nVAT [%]\nGross\nworth\n1.\nReal Madrid Inflatable Chair\n5,00\neach\n43,95\n219,75\n10%\n241,73\n(SG16136)\n2\n60 Inches Marble Dinning Table\n1,00\neach\n5 756,00\n5 756,00\n10%\n6 331,60\nTop Inlay Work Lawn Table with\nMulti Color Stones\nSUMMARY\nVAT [%]\nNet worth\nVAT\nGross worth\n10%\n5 975,75\n597,58\n6 573,33\nTotal\n$ 5 975,75\n$ 597,58\n$ 6 573,33",
+  "meta": {
+    "source_image": "dataset\\invoice\\batch1-0010.jpg",
+    "classification_confidence": 0.65,
+    "classification_method": "rules_fallback",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 117.896,
+    "ocr_time_seconds": 9.497,
+    "classification_time_seconds": 26.716,
+    "extraction_time_seconds": 81.682
+  }
+}

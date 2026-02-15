@@ -1,0 +1,77 @@
+{
+  "document_type": "invoice",
+  "fields": {
+    "invoice_number": "74724200",
+    "date_of_issue": "02/15/2016",
+    "seller": [
+      "Perez, King and Baker"
+    ],
+    "client": [
+      "Hawkins, Bell and Calhoun"
+    ],
+    "address": {
+      "perez_king_baker": "Martinez Pine Patriciaburgh, IA 68490",
+      "newamandastad": "New Amandastad, SD 06299"
+    },
+    "tax_id1": "933-83-3647",
+    "tax_id2": "996-90-5198",
+    "iban": "GB8IYJES41831888621426",
+    "items": [
+      {
+        "item_no": 1,
+        "description": "Black House: A Novel by Stephen King and Peter Straub",
+        "quantity": 2,
+        "unit_measurement": null,
+        "net_price": "$4.49"
+      },
+      {
+        "item_no": 2,
+        "description": "A Short Guide to Writing About by an unnamed author",
+        "quantity": 3,
+        "unit_measurement": null,
+        "net_price": "$4.89"
+      },
+      {
+        "item_no": 3,
+        "description": "Shaping the World: Sculpture by Antony Gormley",
+        "quantity": 1,
+        "unit_measurement": null,
+        "net_price": "$43.28"
+      },
+      {
+        "item_no": 4,
+        "description": "My Life in and Out of the Rough by John Daly",
+        "quantity": 2,
+        "unit_measurement": null,
+        "net_price": "$6.74"
+      },
+      {
+        "item_no": 5,
+        "description": "Tales from the Buffalo Bills by an unnamed author",
+        "quantity": 1,
+        "unit_measurement": null,
+        "net_price": "$5.50"
+      }
+    ],
+    "vat_percentage": 10,
+    "gross_worth": "$242.70",
+    "total_amount": {
+      "subtotal": "$220.64",
+      "tax": "$22.06",
+      "grand_total": "$242.70"
+    },
+    "free_shipping": 5,
+    "summary": null
+  },
+  "ocr_text": "Invoice\nno: 74724200\nDate of issue:\n02/15/2016\nSeller:\nClient:\nPerez, King and Baker\nHawkins, Bell and Calhoun\n18507 Randall Falls Apt. 942\n0077 Martinez Pine\nPatriciaburgh, IA 68490\nNew Amandastad, SD 06299\nTax Id: 933-83-3647\nTax Id: 996-90-5198\nIBAN: GB8IYJES41831888621426\nITEMS\nNo.\nDescription\nQty\nUM\nNet price\nNet worth\nVAT [%]\nGross\nworth\nBlack House:\nA Novel by\n2,00\neach\n4,49\n8,98\n10%\n9,88\nStephen King, Peter Straub\n2\nA Short Guide to Writing About\n4,00\neach\n4,89\n19,56\n10%\n21,52\nArt, gth Edition (T\n3\nShaping the World: Sculpture\n4,00\neach\n43,28\n173,12\n10%\n190,43\nfrom Prehistory to Now by\nAntony Gormley (English)\nMy Life in and Out of the Rough\n2,00\neach\n6,74\n13,48\n10%\n14,83\nby John Daly (2006, Hardcover)\nFREE SHIPPING\n5\nTales from the Buffalo Bills\n1,00\neach\n5,50\n5,50\n10%\n6,05\nSUMMARY\nVAT [%]\nNet worth\nVAT\nGross worth\n10%\n220,64\n22,06\n242,70\nTotal\n$ 220,64\n$ 22,06\n$ 242,70",
+  "meta": {
+    "source_image": "dataset\\invoice\\batch1-1024.jpg",
+    "classification_confidence": 0.65,
+    "classification_method": "rules_fallback",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 144.606,
+    "ocr_time_seconds": 11.482,
+    "classification_time_seconds": 36.775,
+    "extraction_time_seconds": 96.348
+  }
+}

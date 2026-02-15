@@ -1,0 +1,24 @@
+{
+  "document_type": "receipts",
+  "fields": {
+    "store": null,
+    "total_amount": "$37.37",
+    "from": null,
+    "subject": null,
+    "title": null,
+    "content": null,
+    "summary": null,
+    "date": "10/29/2018"
+  },
+  "ocr_text": "Moonstar\nRestaurant\n383 Ge] lert Blvd ,\nDaly City , CA 94015\n(650)   992-2888\nP A I D REPRINT\nTab,332\nIP 10651\n#2406\nQTY/LB\nNAME\nU/P\nPRICE\nWEEKDAY DINNER $29.88\n29.88\nSUBTOTAL\n29.88\n15x SERVICE CHARGE\n4,48\nTax(8, 758)\n3,01\nSHLES TOTAL:\n32,8\nTOTAL:\n37 , 37\nCASH;\n100 , 00\nCHANGE\n62\n63\n10/29/2018 19;51\nTHANK   YOU",
+  "meta": {
+    "source_image": "dataset\\receipts\\1022-receipt.jpg",
+    "classification_confidence": 0.97,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 57.274,
+    "ocr_time_seconds": 2.234,
+    "classification_time_seconds": 22.697,
+    "extraction_time_seconds": 32.342
+  }
+}

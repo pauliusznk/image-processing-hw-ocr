@@ -1,0 +1,23 @@
+{
+  "document_type": "invoice",
+  "fields": {
+    "invoice_number": "233531",
+    "date": null,
+    "seller": null,
+    "buyer": "Air Dynamics Co. Ltd:",
+    "total_amount": null,
+    "vat_amount": null,
+    "currency": "USD"
+  },
+  "ocr_text": "Invoice\nacct\n1N8CpQGmFzQxIIDx\nInvoice number\n233531\nDate of issue\nOct. 19,2023\nDate due\nNov. 4,2023\nacct_1NBCpQGmFzQxlIDx\nBill to\nAir Dynamics Co. Ltd:\n58146 USD due Nov. 4, 2023\nPayonline\nDescription\nQuantity\nunit_price\nAmount\n3M 7725 Matte Black 15\"xbOyd\n8\nS260\nS2080\n3M 7725 Matte Black 15\"x5Oyd\n3M 1357 Contact Grey 5 GAL\n5\n$328\nS1640\n3M 1357 Contact Grey 5 GAL\n3M 8672 Polyurethane Prot Tape\n10\nS635\nS6350\n3M 8672 Polyurethane Prot\nSubTotal:\nS4397\nTotal:\nS4397\nAmount due:\nS8146 USD\nTape",
+  "meta": {
+    "source_image": "dataset\\invoice\\batch2-0036.jpg",
+    "classification_confidence": 0.95,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 74.404,
+    "ocr_time_seconds": 11.213,
+    "classification_time_seconds": 18.966,
+    "extraction_time_seconds": 44.224
+  }
+}

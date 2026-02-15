@@ -1,0 +1,25 @@
+{
+  "document_type": "email",
+  "fields": {
+    "from": "Sue Kendall",
+    "to": [
+      "Brice O'Brien"
+    ],
+    "date": "September 15, 1998",
+    "subject": null,
+    "title": null,
+    "content": "This recommends that Camel replace the Chicago East Ohio Street wall with a 52' X 52' wall at Ontario/State (start date 12/10) and a 20' x 20' wall at Clark south of Addison (on the corner of Wrigley Field; start date 11/20).\nThe cost is $20.6M (net commission) per month and $246.8M for 12 months.\n(As information, LHC estimates that the Ohio Street wall will be obstructed and canceled by early October.) Funds freed-up from this unit can pay for the recommended walls\nSpec sheets are attached We have requested photos and will send them to you as soon as possible. Also, below is additional information each unit:\nOntarlo east ot State nonth lane_faclng east; Reads to Ontario westbound and has a parallel exposure to State Street\nIllumination is provided.\nOntario Street has developed into a primary nightlife strip with Ed Debevics, Planet Hollywood, and Michael Jordon's all In walking distance of this wall,\nVinyllmesh is suggested. 813.7Mlmonth; $164.9M/12 months;\nClerk Street 250' south of Addlson Street east Iene faclng north; On the corner of Wrigley Field, where Vinyllmesh can be used.\nWrigleyville is a growing O-Zone area, an Increasingly popular entertainment; sports, and shopping destination: High vehicular and pedestrian traffic; can be viewed from the \"El\",\nVinyl or paint can be used:\n8 S6.8Mmonth, $81.9M/12 months;\nRjr3066369 70002 0397",
+    "summary": null
+  },
+  "ocr_text": "MEMoRAND UM\nTo:\nBrice O'Brien\nR. J. Reynolds Tobacco Company\nFrom:\nSue Kendall\nDate;\nSeptember 15, 1998\nRe;\nCAMEL:Chicago_Walls\nThis recommends that Camel replace the Chicago East Ohio Street wall with\na 52'\nX 52'\nwall at Ontario/State (start date 12/10) and a 20' x 20' wall at Clark south of Addison (on\nthe corner of Wrigley Field; start date 11/20).\nThe cost is $20.6M (net\ncommission) per\nmonth and $246.8M for 12 months.\n(The cost is $23.9M for 1998 and $222.9M for\n1999.)\nAs information, LHC estimates that the Ohio Street wall will be obstructed and canceled\nby early October. Funds freed-up from this unit can pay for the recommended walls\nSpec sheets are attached  We have requested photos and will send them to you as\nsoon as\npossible.\nAlso, below is additional information each unit:\nOntarlo east ot State nonth lane_faclng east;\nReads to Ontario westbound and has a parallel exposure to State Street\nIllumination is provided.\nOntario Street has developed into a primary nightlife strip with Ed Debevics, Planet\nHollywood, and Michael Jordon's all In walking distance of this wall,\nVinyllmesh is suggested.\n813.7Mlmonth; $164.9M/12 months;\nClerk Street 250'south of Addlson Street east Iene faclng north;\nOn the corner of Wrigley Field;,\nWrigleyville is a growing O-Zone area, an Increasingly popular entertainment; sports,\nand shopping destination:\nHigh vehicular and pedestrian traffic; can be viewed from the \"El\",\nVinyl or paint can be used:\n8\nS6.8Mmonth, $81.9M/12 months;\n2\nRjr3066369\n70002 0397",
+  "meta": {
+    "source_image": "dataset\\email\\527799804+-9805.jpg",
+    "classification_confidence": 0.65,
+    "classification_method": "rules_fallback",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 106.468,
+    "ocr_time_seconds": 11.071,
+    "classification_time_seconds": 34.521,
+    "extraction_time_seconds": 60.875
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "document_type": "email",
+  "fields": {
+    "from_name": "Chcryl Harry",
+    "to_name": "Suggs, Michacl L",
+    "cc_names": null,
+    "bcc_names": null,
+    "primary_date": "2000-11-08 9:23:58 AM",
+    "last_modified_date": "2000-Nov-08 10:17:00",
+    "last_touched_date": null,
+    "sent_date": "2000-Nov-08 10:17:00",
+    "received_date": "2000-Nov-08 9:23:58 AM",
+    "subject": "Thank You",
+    "attachments": null,
+    "content": "Hi Mikcl\nI thought I would have sccn you by now lo givc you a T-shint and souvenir bag from thc Midcast Regional. Iam carrying around in my car! Thank you So much for sponsoring thc t-shirts. Thc Rcgional mccling was a success The Twin Chapter made quite an impression. Everyonc fclt this was onc Of thc bcst confcrences Uhey had attcnded.\nI have atlachcd\na\ntforma] thank you for your filcs.",
+    "summary": null,
+    "title": null
+  },
+  "ocr_text": "From:Chcryl Harry\nTo:Suggs, Michacl L\nCC:\nBCC:\nPrimary Date: 11/8/2000 9.23.58 AM\nLast Modified Date: 2(00-Nov-0& 09.23.58\nLast Touched Date:\nSent Date: 2000-Nov-O8 10.17.00\nReceived Date: 2000-Nov-OS 09.23.58\nSubject: Thank You\nAttachments:\nSuggs Thkdoc\nALULLILLIILL\nHi Mikcl\nI\nthought I would have sccn you by now lo givc you a T-shint and souvenir bag from thc\nMidcast Rcgional. Iam carrying around in my car! Thank you So much for sponsoring\nthc t-shirts. Thc Rcgional mccling was a success The Twin\nChapter made quite an\nimpression. Everyonc fclt this was onc Of thc bcst confcrences Uhey had attcnded. I have\natlachcd\na\nforma] thank you for your filcs.\nI will be in touch soon:\nTake Carc\nCheryl\nmembcr of the htp:Ilwww.A fricana.com online community.\nSign up for Frcc-for-Life E-mail at hllp:IIwww.Alricana com\n8\ng\nRJR1025142332\n70006 2177\nCity",
+  "meta": {
+    "source_image": "dataset\\email\\527865354+-5354.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 73.717,
+    "ocr_time_seconds": 9.468,
+    "classification_time_seconds": 20.546,
+    "extraction_time_seconds": 43.702
+  }
+}

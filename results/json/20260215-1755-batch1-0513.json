@@ -1,0 +1,83 @@
+{
+  "document_type": "invoice",
+  "fields": {
+    "invoice_number": "86883880",
+    "date_of_issue": "06/16/2018",
+    "seller": "Rhodes, Young and Yoder",
+    "client": "Davis PLC",
+    "address_seller": {
+      "street": "41630 Sanchez Avenue",
+      "city": "Lake Nathan, MO 18866"
+    },
+    "address_buyer": {
+      "postal_code": "7257 Chelsea Circle",
+      "state": "North Victoria, MI 38860"
+    },
+    "tax_id_seller": [
+      "995-92-6109"
+    ],
+    "tax_id_buyer": [
+      "988-72-4811"
+    ],
+    "iban": null,
+    "items": [
+      {
+        "item_number": 1,
+        "description": "Unicorn Series Small Large Long",
+        "quantity": 3,
+        "unit_measurement": "each",
+        "net_price": "46.50",
+        "gross_worth": "139.50"
+      },
+      {
+        "item_number": 2,
+        "description": "Floor Carpet Area Rugs Various Size Soft Rug",
+        "quantity": 2,
+        "unit_measurement": "each",
+        "net_price": "13.59",
+        "gross_worth": "27.18"
+      },
+      {
+        "item_number": 3,
+        "description": "Chair Cover Washable Shaggy Area Rugs Carpet",
+        "quantity": 3,
+        "unit_measurement": "each",
+        "net_price": "13.59",
+        "gross_worth": "27.18"
+      },
+      {
+        "item_number": 4,
+        "description": "Area Rug Kids Room Carpets Mat for Living Room",
+        "quantity": 3,
+        "unit_measurement": null,
+        "net_price": null,
+        "gross_worth": "25.72"
+      },
+      {
+        "item_number": 5,
+        "description": "Round Cushions Fleece Floor Carpets Decorative",
+        "quantity": 3,
+        "unit_measurement": null,
+        "net_price": null,
+        "gross_worth": "16.13"
+      }
+    ],
+    "summary": {
+      "vat_percentage": "10%",
+      "net_worth": "$ 204.72",
+      "total_vat": "$ 20.47",
+      "gross_worth": "$ 225.19"
+    }
+  },
+  "ocr_text": "Invoice\nno: 86883880\nDate of issue:\n06/16/2018\nSeller:\nClient:\nRhodes, Young and Yoder\nDavis PLC\n41630 Sanchez Avenue\n7257 Chelsea Circle\nLake Nathan, MO 18866\nNorth Victoria, MI 38860\nTax Id: 995-92-6109\nTax Id: 988-72-4811\nIBAN: GB63WGSI95835863625969\nITEMS\nNo.\nDescription\nQty\nUM\nNet price\nNet worth\nVAT [%]\nGross\nworth\nUnicorn Series Small Large Long\n3,00\neach\n46,50\n139,50\n10%\n153,45\nFloor Carpet Area Rugs Various\nSize Soft Rug\n2\n2Pack Soft Fluffy Faux Fur Plain\n2,00\neach\n13,59\n27,18\n10%\n29,90\nChair Cover Washable Shaggy\nArea Rugs Carpet\n3\n3D Starry sky Carpet Child\n2,00\neach\n11,69\n23,38\n10%\n25,72\nArea Rug Kids Room Carpets\nMat for Living Room\n3pcs Faux Fur Seat Pads 30cm\n1,00\neach\n14,66\n14,66\n10%\n16,13\nRound Cushions Fleece Floor\nCarpets Decorative\nSUMMARY\nVAT [%]\nNet worth\nVAT\nGross worth\n10%\n204,72\n20,47\n225,19\nTotal\n$ 204,72\n$ 20,47\n$ 225,19\nPlay",
+  "meta": {
+    "source_image": "dataset\\invoice\\batch1-0513.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 138.041,
+    "ocr_time_seconds": 10.864,
+    "classification_time_seconds": 33.737,
+    "extraction_time_seconds": 93.439
+  }
+}

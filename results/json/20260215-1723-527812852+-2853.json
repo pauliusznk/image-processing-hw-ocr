@@ -1,0 +1,32 @@
+{
+  "document_type": "email",
+  "fields": {
+    "from_name": "Jan Fulton",
+    "to_names": [
+      "Carolyn G. Brinkley"
+    ],
+    "cc_names": [
+      "Vivian L. Tumner"
+    ],
+    "bcc_names": [],
+    "primary_date": "1998-09-24T07:47:45",
+    "last_modified_date": "1998-09-24T07:47:47",
+    "last_touched_date": null,
+    "sent_date": "1998-09-24T07:47:45",
+    "received_date": "1998-0909-24T07:47:45",
+    "subject": "RE: Puerto Rico",
+    "content": null,
+    "attachments": []
+  },
+  "ocr_text": "From: Smith; Jan Fulton\nTo; Brinkley; Carolyn G.\nCC: Tumner; Vivian L.\nBCC:\nPrimary Date: 9/24/1998 7:47:45 AM\nLast Modificd Date: 1998-Sep-24 07.47.47\nLast Touched Date:\nSent Date: 1998-Sep-24 07:47.45\nReceived Date: 1998-Sep-24 07.47.45\nSubject: Puerto Rico{F}\nAttachments:\n7itnentinn\nCarolyn;\nI think we should\nhelp, too. (TAC? Company? or ER?)\nIfyou or Vivian want more info, see this momings\nWinston-Salem Joumal. Denise Santos told me\nyou just haven't ever seen anything like it\n5t\nin terms\nofhow it cut such & wide swath across Puerto Rico.\nJan\n~~~~Original Message--\nFrom: Brinkley, Carolyn G.\nSent: Thursday, September 24, 1998 9.24 AM\nTo: Smith; Jan Fulton\nSubject: RE: Puerto Rico\n[will talk to Dottie about\ncollecting money for our employees affected by the hurricane I\npersonally think we should do something to help our cO-workers I let you know as soon\nas [ talk with Dottie.\ncb\n~_Original Message--=\nFrom: Smith; Jan Fulton\nSent: Wednesday, September 23,1998 2:59 PM\nTo: Singleton; John W; Moskowitz, Seth W; Payne, Maura; Crosslin; Carole $,;\nWilliams, Richard L\nCc: Payne; Tommy J; Brinkley, Carolyn G.\nSubject: Puerto Rico\nFYI to PR\nWe've gotten a couple calls from local media asking if\nRJR has & plant in Puerto Rico, and impact from hurricane\nFYI, if you get one of these calls:\n~RJR Intemational has an office in San Juan and a cigarette\n8\n8\nRjrO000000003087393\n70011 0268",
+  "meta": {
+    "source_image": "dataset\\email\\527812852+-2853.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 90.82,
+    "ocr_time_seconds": 11.032,
+    "classification_time_seconds": 38.573,
+    "extraction_time_seconds": 41.214
+  }
+}

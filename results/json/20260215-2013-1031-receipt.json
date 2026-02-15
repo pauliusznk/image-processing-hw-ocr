@@ -1,0 +1,21 @@
+{
+  "document_type": "receipts",
+  "fields": {
+    "store": "#T",
+    "date": null,
+    "total": "40.50",
+    "currency": "$",
+    "payment_method": null
+  },
+  "ocr_text": "#T\nTt\nLaure] Tavern HerMOSa Beach\n1220 Hermusd\nDeach\nHermosa Beach , CA\n90254\nTe]\n01/12/19\n:23 PM\nWaiter 80 Sophie\nTable 501\nCust\nOrder   1388\n#ttttt\nBTL BEER\n5, 00\nBRUSSEL S   SPROUTS\n8 , 00\nCANTONESE   TENDERS\n11,00\nGRILLED  CHEESE\n12.00\n$ ADD GARLIC FRIES\n4.50\nTaxable:\n40.50\nSub-total\n40.50\nTaxes\n3.85\nTotal\nDue\n44\n35\nTHANK   YCU!\nALWAYS   @RIVE SAFELY\nPlease visit our website:\nWWW , laureltaverm. COI\nINSTAGRAM;\n@laureltavern",
+  "meta": {
+    "source_image": "dataset\\receipts\\1031-receipt.jpg",
+    "classification_confidence": 0.45,
+    "classification_method": "rules_fallback",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 67.008,
+    "ocr_time_seconds": 2.762,
+    "classification_time_seconds": 16.345,
+    "extraction_time_seconds": 47.901
+  }
+}

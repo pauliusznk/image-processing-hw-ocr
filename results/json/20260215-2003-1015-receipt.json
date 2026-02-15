@@ -1,0 +1,33 @@
+{
+  "document_type": "receipts",
+  "fields": {
+    "company_name": "HAMMOCKS TRADING COMPANY",
+    "website": "WWW , hammockstradingcompany",
+    "composition": null,
+    "address1": "7285 Roswe Road",
+    "city": "Sandy Springs",
+    "state": "Georgia",
+    "zip_code": "30328'",
+    "contact_number": "770-395-9592",
+    "customer_name": "Nice_~fofluf",
+    "transaction_reference": "Ref :155091",
+    "check_amount": "20.25 USD",
+    "date_and_time": "3/10/2017 6:23 pm",
+    "store_location": null,
+    "total_before_tax": "47.00",
+    "state_tax": "3.29",
+    "grand_total": "50 .29",
+    "due_date": "1/2 Priced Oysters o the HaIf She] ]e 6 pm dafly"
+  },
+  "ocr_text": "HAMMOCKS TRADING COMPANY\nWWW , hammockstradingcompany\nCom\n7285 Roswe\nRoad\nSandy Springs\nGeorgia\n30328'\n770-395-9592\nNice_~fofluf\nTb] ;40\nRef :155091\nChk :202524\nShannon\n3/10/2017 6:23 pm\nCoke\n2.50\nShrimp Entree\n21,00\nMac n Cheese\nFrench Fries\nBBQ & Blue Chz chips\n6,00\nDiscount :BBQ\n& Blue Chz\n-6,00\nSprite\n2.50\nLobster Ro]]\n21,00\nSubTota]\n47.00\nState Tax\n3.29\nTota]\n50 .29\nTota | Due\n50,29\n1/2 Priced Oysters o the HaIf She] ]e\n6 pm dafly\nYou",
+  "meta": {
+    "source_image": "dataset\\receipts\\1015-receipt.jpg",
+    "classification_confidence": 0.98,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 66.802,
+    "ocr_time_seconds": 2.621,
+    "classification_time_seconds": 17.417,
+    "extraction_time_seconds": 46.763
+  }
+}

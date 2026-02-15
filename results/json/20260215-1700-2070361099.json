@@ -1,0 +1,21 @@
+{
+  "document_type": "email",
+  "fields": {
+    "from": "Carraro, Tara",
+    "to": "Daragan, Karen; Martin, Maria; McCormick, Brendan; Merlo, Ellen; Rainey, Karen",
+    "cc": null,
+    "subject": null,
+    "date": null
+  },
+  "ocr_text": "2070361099\nPage\nMedia Inquiry tor Martin, Maria\nTo:\nDaragan, Karen; Martin, Maria; McCormick, Brendan; Merlo, Ellen; Rainey, Karen\nFrom:\nCarraro, Tara\nDate=\nThu, Oct 13, 1994 3.08 PM\nReporter:\nMr: Larry Doherty\nPhone\nNo.\n(312) 649-5386\nMedia\nOutlet:\nFW: Advertising Age\nLocation:\nChicago\nTopic:\nWWS\nDeadline:\n1/2 hours\nFYI\n5~\nJulie Liesse, Bureau Chief called to again confirm agency and said that she did not\nneed to speak with someone right now; because the piece would probably be fairly short\nsince Ira did the Accomm story on PM last week, but that she would call back with questions\nif she had any.",
+  "meta": {
+    "source_image": "dataset\\email\\2070361099.jpg",
+    "classification_confidence": 0.98,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 57.768,
+    "ocr_time_seconds": 8.568,
+    "classification_time_seconds": 22.237,
+    "extraction_time_seconds": 26.962
+  }
+}

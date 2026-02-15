@@ -1,0 +1,54 @@
+{
+  "document_type": "invoice",
+  "fields": {
+    "invoice_number": "72128555",
+    "date_of_issue": "12/25/2013",
+    "seller": "Obrien Group",
+    "client": "Duncan-Davis, PSC 2324, Box 6632, Robbinsberg, AZ 54997 APO AP 93827",
+    "tax_id1": "905-82-5399",
+    "tax_id2": "917-86-7656",
+    "iban": null,
+    "currency": "$",
+    "items": [
+      {
+        "item_number": 1,
+        "description": "Fatawa Islamiyah (Islamic)",
+        "quantity": 2,
+        "unit_measurement": "each",
+        "net_price": "$99.90"
+      },
+      {
+        "item_number": 2,
+        "description": "Sasinowski M-Legacy Of Ra",
+        "quantity": 1,
+        "unit_measurement": "each",
+        "net_price": "$19.40"
+      },
+      {
+        "item_number": 3,
+        "description": "Time Life Books: The Old West",
+        "quantity": 3,
+        "unit_measurement": "each",
+        "net_price": "$139.95"
+      }
+    ],
+    "total_amount": {
+      "gross_worth": "$732.34",
+      "vat": "10%",
+      "net_worth": "$665.76"
+    },
+    "summary": null,
+    "content": null
+  },
+  "ocr_text": "Invoice\nno: 72128555\nDate of issue:\n12/25/2013\nSeller:\nClient:\nObrien Group\nDuncan-Davis\n6217 Boyd Ville Apt: 758\nPSC 2324, Box 6632\nRobbinsberg, AZ 54997\nAPO AP 93827\nTax Id: 905-82-5399\nTax Id: 917-86-7656\nIBAN: GBZIQMAA96406297569205\nITEMS\nNo.\nDescription\nQty\nUM\nNet price\nNet worth\nVAT [%]\nGross\nworth\nFatawa Islamiyah (Islamic\n2,00\neach\n99,90\n199,80\n10%\n219,78\nVerdicts) (8 Volume Set)\n2\nSasinowski M-Legacy Of Ra\n1,00\neach\n19,40\n19,40\n10%\n21,34\nBOOK NEW\n3\nTime Life Books: The Old West\n3,00\neach\n139,95\n419,85\n10%\n461,83\nSeries\nComplete 26 Volumes\nMaster Index mn853\nTumbling by Caela Carter\n3,00\neach\n4,49\n13,47\n10%\n14,82\n5\nHow to Win Friends\nInfluence\n2,00\neach\n6,62\n13,24\n10%\n14,56\nPeople\nSUMMARY\nVAT [%]\nNet worth\nVAT\nGross worth\n10%\n665,76\n66,58\n732,34\nTotal\n$ 665,76\n$ 66,58\n$ 732,34",
+  "meta": {
+    "source_image": "dataset\\invoice\\batch1-0006.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 103.605,
+    "ocr_time_seconds": 10.377,
+    "classification_time_seconds": 23.669,
+    "extraction_time_seconds": 69.559
+  }
+}
