@@ -1,0 +1,21 @@
+{
+  "document_type": "email",
+  "fields": {
+    "from": "Chaikin; Karen",
+    "to": "Farlow, Kimberlie J;; Darden, Bennie C.",
+    "cc": "Sahakian, Marlyne (BURSON)",
+    "subject": "RE: YSP Model Plant Cmties Conf Call",
+    "date": null
+  },
+  "ocr_text": "2071863841\nChaikin Karen\nFrom:\nChaikin; Karen\nSent:\nMonday, November 22, 1999 10.29 AM\nTo:\nFarlow, Kimberlie J;; Darden, Bennie C.\nCc:\nSahakian, Marlyne (BURSON)\nSubject:\nRE: YSP Model Plant Cmties Conf Call\nKim and Bennie_\nCan you\nupdates from your respective colleagues and do a call with me this week or next?\nNext\nFriday isntt good for me, and\nknow the week of Dec 6 is tight for everyone\nIf not;, I\"Il re-issue the\nactivity reports and ask for written updates.\nLet me know, at which time IIl let everyone know how we will proceed.\nthanks;\nKC\nYouth Smoking Prevention\nget",
+  "meta": {
+    "source_image": "dataset\\email\\2071863841.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 51.835,
+    "ocr_time_seconds": 8.899,
+    "classification_time_seconds": 24.462,
+    "extraction_time_seconds": 18.473
+  }
+}

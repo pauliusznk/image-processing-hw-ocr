@@ -1,0 +1,33 @@
+{
+  "document_type": "email",
+  "fields": {
+    "from": "Lyons, Mary M",
+    "to": [
+      "Martin",
+      "Timothy G",
+      "Steve H Lane"
+    ],
+    "cc": [],
+    "bcc": [],
+    "primary_date": "1998-07-17 11:05.09 AM",
+    "last_modified_date": "1 end of the document provided, no last modified date given.",
+    "last_touched_date": null,
+    "sent_date": "1998-070724 11:05.09",
+    "received_date": "1998-07-17 11.05.09",
+    "subject": "TI Meeting",
+    "attachments": [],
+    "content": null,
+    "summary": null
+  },
+  "ocr_text": "From: Lyons, Mary M,\nTo: Martin; Timothy G;; Lane; Steven H,\nCC:\nBCC:\nPrimary Date: 7/17/1998 11:05.09 AM\nLast Modified Date: 1998-Jul-17 11:05.09\nLast Touched Date:\nSent Date; 1998-Jul-17 11;05.09\nReceived Date: 1998-Jul-17 11.05.09\nSubject: TI Meeting\nAttachmcnts:\n0499844\nSteve,\nJoe said he cannot change his 8.00 meeting on July 31. I told Paul Braxton this and also\nthat Joe said we could be finished by 12.00 is\nneed to be. Paul said to leave the TI\nmeeting as is at 10.00 a.m;\nThanks\n8\n4\nRjrOOOO000004048798\n70012 7422\nTim,\nthey\nMary",
+  "meta": {
+    "source_image": "dataset\\email\\527904737+-4737.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 71.671,
+    "ocr_time_seconds": 8.475,
+    "classification_time_seconds": 32.432,
+    "extraction_time_seconds": 30.764
+  }
+}

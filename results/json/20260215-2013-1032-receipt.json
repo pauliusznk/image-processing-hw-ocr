@@ -1,0 +1,22 @@
+{
+  "document_type": "receipts",
+  "fields": {
+    "store": "WINGS & THINGS",
+    "location": "DUTCH BRIDGEYARD ELMONT NY11003",
+    "phone_number": "(516) 341-7075",
+    "invoice_number": "#168",
+    "date": "2019-03-04",
+    "total_amount": "$9.50"
+  },
+  "ocr_text": "WINGS &\nTHINGS\n1717 DUTCH  BRDY  ELMONT\nNY11003\nTHANKS CALL AGAIN 516-341-7075\n#168\nOUT\nMACRCHZ\nSMALL\n1.19\nCOLL GRN\nSMALL\n1.19\nCORN\nBREAD\n62\n5 WINGS\n5,75\nSPCY FRY\nTXTL\n75\nTOTL\n9.50\nCASH\n9.50\nCHNG\n00\nTHANK   YOU\nCOME   AGAIn\nPM #1\n0168 20:14 #04 MAR.19'17\nREGOOO1",
+  "meta": {
+    "source_image": "dataset\\receipts\\1032-receipt.jpg",
+    "classification_confidence": 0.95,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 44.857,
+    "ocr_time_seconds": 2.674,
+    "classification_time_seconds": 17.567,
+    "extraction_time_seconds": 24.615
+  }
+}

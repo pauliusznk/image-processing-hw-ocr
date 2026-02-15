@@ -1,0 +1,21 @@
+{
+  "document_type": "receipts",
+  "fields": {
+    "store": "NJ 07022",
+    "date": null,
+    "total": null,
+    "currency": "$",
+    "payment_method": null
+  },
+  "ocr_text": "NJ 07022\nPhone\n(201) 840-8428\nCheck:832869_\nGuests:\nDate:02/11/19\nTime:07 : 46pm\nTable:23\nServer : DANIELA\nGuaca Chicharron\n813.95\n$3.00\n2 EMPANADA\nPARGO FRITO\n$19.95\nEnsa lada\nAguacate\nNo Cebo] Ia\nNo Cebo] Ia Roja\nS17,00\nMAR\nCHICKEN\nTostones\nTostones\nkk ToGo\n2 \"rrrwrrnawrnrnmrrrrrrrrarrrrrrr\nSALMON 4 LA PLANCHA\n816.00\nEnsa lada\nEnsa Iada\nSubtotal:\n869.90\nVoid:\n-$17.95\nTax:\n83.44\nSbt] w/Tax:\n873,34\nAmt Due:\n$55\n39\nFAIRVIEW,",
+  "meta": {
+    "source_image": "dataset\\receipts\\1042-receipt.jpg",
+    "classification_confidence": 0.45,
+    "classification_method": "rules_fallback",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 62.808,
+    "ocr_time_seconds": 2.704,
+    "classification_time_seconds": 22.681,
+    "extraction_time_seconds": 37.423
+  }
+}

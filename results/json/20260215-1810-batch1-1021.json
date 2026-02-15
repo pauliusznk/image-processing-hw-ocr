@@ -1,0 +1,23 @@
+{
+  "document_type": "invoice",
+  "fields": {
+    "invoice_number": "80797635",
+    "date": "11/22/2014",
+    "seller": "Client:",
+    "buyer": "Franco, Richardson and Miller",
+    "total_amount": "$ 506,73",
+    "vat_amount": null,
+    "currency": "$"
+  },
+  "ocr_text": "Invoice\nno: 80797635\nDate of issue:\n11/22/2014\nSeller:\nClient:\nFranco, Richardson and Miller\nDecker Group\n093 Burton Plains Apt: 420\n946 Joseph Club\nDavidmouth, TX 09517\nSouth Nathan, LA 01327\nTax Id: 972-83-6108\nTax Id: 910-82-2206\nIBAN: GB95SSTT34496603515491\nITEMS\nNo.\nDescription\nQty\nUM\nNet price\nNet worth\nVAT [%]\nGross\nworth\n1.\nReebok Kids Boys Blue Sneakers\n4,00\neach\n5,00\n20,00\n10%\n22,00\nShoes US 11\nNo Laces\n2\nJoma Boys Youth Super Copa\n4,00\neach\n19,99\n79,96\n10%\n87,96\n102 Soccer Cleats 5.5 White\nYellow Blue Futbol NEW\n3\nNike Air Jordan 7 Retro BG\n4,00\neach\n79,95\n319,80\n10%\n351,78\nBordeaux\n2015 304774-034\nGS Youth Size 4Y\nReebok Boys Furylite Graphic\n3,00\neach\n28,99\n86,97\n10%\n95,67\nGray Athletic Shoes 6 Medium\n(D) Big Kid BHFO 0924\nSUMMARY\nVAT [%]\nNet worth\nVAT\nGross worth\n10%\n506,73\n50,67\n557,40\nTotal\n$ 506,73\n$ 50,67\n$ 557,40",
+  "meta": {
+    "source_image": "dataset\\invoice\\batch1-1021.jpg",
+    "classification_confidence": 0.65,
+    "classification_method": "rules_fallback",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 168.503,
+    "ocr_time_seconds": 11.456,
+    "classification_time_seconds": 34.979,
+    "extraction_time_seconds": 122.068
+  }
+}

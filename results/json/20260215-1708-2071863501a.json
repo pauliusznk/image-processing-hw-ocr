@@ -1,0 +1,21 @@
+{
+  "document_type": "email",
+  "fields": {
+    "from": "Chaikin; Karen",
+    "to": "Daragan, Karen M;",
+    "cc": null,
+    "subject": "FW: Preparing for the Drug Free Years",
+    "date": null
+  },
+  "ocr_text": "Chaikin,Karen\n1\nFrom:\nChaikin; Karen\nSent:\nWednesday, October 20, 1999 8.22 AM\nTo:\nDaragan, Karen M;\nSubject:\nFW: Preparing for the Drug Free Years\nKD\nHave you taken a look at the CD?\nFeel free to forward my way: thanks.\nKC\nYouth Smoking Prevention",
+  "meta": {
+    "source_image": "dataset\\email\\2071863501a.jpg",
+    "classification_confidence": 0.65,
+    "classification_method": "rules_fallback",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 111.951,
+    "ocr_time_seconds": 7.793,
+    "classification_time_seconds": 85.44,
+    "extraction_time_seconds": 18.718
+  }
+}

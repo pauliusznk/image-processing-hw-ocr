@@ -1,0 +1,55 @@
+{
+  "document_type": "invoice",
+  "fields": {
+    "invoice_number": "17014325",
+    "date_of_issue": "03/16/2017",
+    "seller": [
+      "Valdez, Clark and Fischer"
+    ],
+    "client": [
+      "Hancock-Shields"
+    ],
+    "address_line1": "4108 Marissa Ports",
+    "city": "Andreaborough",
+    "state": "MN",
+    "zipcode": "20857",
+    "additional_billing_location": [
+      "Rochaburgh, SC 53742"
+    ],
+    "tax_id1": "981-88-9179",
+    "tax_id2": "961-75-8721",
+    "iban": null,
+    "items": [
+      {
+        "item_number": 1,
+        "description": "Nintendo Switch Lite Console",
+        "quantity": 2.0,
+        "unit_measurement": "",
+        "net_price": "310.00"
+      },
+      {
+        "item_number": 2,
+        "description": "Gray with Animal Crossing New Horizons Game",
+        "quantity": 2.0,
+        "unit_measurement": "",
+        "net_price": "310.00"
+      }
+    ],
+    "summary": {
+      "vat_percentage": 10,
+      "gross_worth": "$682.00",
+      "total_amount": "$620.00"
+    }
+  },
+  "ocr_text": "Invoice\nno: 17014325\nDate of issue:\n03/16/2017\nSeller:\nClient:\nValdez, Clark and Fischer\nHancock-Shields\n4108 Marissa Ports\n397 Mary Skyway Suite 261\nNew Andreaborough, MN 20857\nRochaburgh, SC 53742\nTax Id: 981-88-9179\nTax Id: 961-75-8721\nIBAN: GB63VYKU25151548792645\nITEMS\nNo.\nDescription\nQty\nUM\nNet price\nNet worth\nVAT [%]\nGross\nworth\nNintendo Switch Lite Console\n2,00\neach\n310,00\n620,00\n10%\n682,00\nGray\nwith Animal Crossing\nNew Horizons Game\nSUMMARY\nVAT [%]\nNet worth\nVAT\nGross worth\n10%\n620,00\n62,00\n682,00\nTotal\n$ 620,00\n$ 62,00\n$ 682,00",
+  "meta": {
+    "source_image": "dataset\\invoice\\batch1-0511.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 93.838,
+    "ocr_time_seconds": 10.071,
+    "classification_time_seconds": 29.305,
+    "extraction_time_seconds": 54.462
+  }
+}

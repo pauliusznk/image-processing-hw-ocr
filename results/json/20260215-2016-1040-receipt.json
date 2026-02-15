@@ -1,0 +1,21 @@
+{
+  "document_type": "receipts",
+  "fields": {
+    "store": "SUKHOTHAI",
+    "date": null,
+    "total": null,
+    "currency": null,
+    "payment_method": "CARD"
+  },
+  "ocr_text": "SUKHOTHAI\nSUKHOTHALSusHI\nASIAN\nFUSION\n1736 Sw\nUNi\n36\nMIAMI\n33196\n7865 (\n4888\nhttp / /www sukhothaius com\n####Order online Wwwsukhothaius comtttt\nORDER: 0003\nDINE-IN\nCashier: Sergio\n19-Apr-2019 2.02.26P\nTransaction 211209\nChicken Fried Rice And Egg\nS7,.99\nLunch\nCalifornia Tropic And Miso\nS7.99\nLunch\nAdd Two Tostones\nS1.00\nSprite\nS2.50\nPerrier Sparklingg Water\nS3.50\nSubtotal\nS22.98\nTax\nS1.61\nService fees on tables\nS3.45\nRestaurant (15.0%)\nTotal\nS28.04\nCREDIT CARD AUTH\nS28.04\nAVE",
+  "meta": {
+    "source_image": "dataset\\receipts\\1040-receipt.jpg",
+    "classification_confidence": 0.97,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 68.524,
+    "ocr_time_seconds": 2.902,
+    "classification_time_seconds": 22.846,
+    "extraction_time_seconds": 42.775
+  }
+}

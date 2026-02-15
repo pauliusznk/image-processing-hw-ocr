@@ -1,0 +1,100 @@
+{
+  "document_type": "invoice",
+  "fields": {
+    "invoice_number": "28935386",
+    "date_of_issue": "02/25/2017",
+    "seller": [
+      "Bishop Group",
+      "Mayer, Richardson and Gamble"
+    ],
+    "client": "Client: Bishop Group",
+    "address": {
+      "street": "400 Rebekah Lake",
+      "city": "Lake Brittanyton",
+      "state": "KY",
+      "zip_code": "19192"
+    },
+    "additional_addresses": [
+      {
+        "street": "5482 Stephens Village Suite 724",
+        "city": "Lake Brittanyton",
+        "state": "KY",
+        "zip_code": "19192"
+      },
+      {
+        "street": "North Michaeltown, IA 70996",
+        "city": "Michaeltown",
+        "state": "IA",
+        "zip_code": "70996"
+      }
+    ],
+    "tax_id1": "927-78-0136",
+    "tax_id2": "915-85-9642",
+    "iban": "GBZIETPX44286405633541",
+    "items": [
+      {
+        "item_number": 1,
+        "description": "Marble Beautiful White Coffee",
+        "quantity": 1,
+        "unit_measurement": null,
+        "um": "each",
+        "net_price": "271.01",
+        "gross_worth": "298.11"
+      },
+      {
+        "item_number": 2,
+        "description": "Table Top Malachite Inlay Art - Home Decor H5372",
+        "quantity": 2,
+        "unit_measurement": null,
+        "um": "each",
+        "net_price": "1 751.25",
+        "gross_worth": "1 926.37"
+      },
+      {
+        "item_number": 3,
+        "description": "White Dinning Table Top Marble - Hall Table 36 Inches",
+        "quantity": 3,
+        "unit_measurement": null,
+        "um": "each",
+        "net_price": "89.95",
+        "gross_worth": "449.75"
+      },
+      {
+        "item_number": 4,
+        "description": "October Mist - Deer Metal Side",
+        "quantity": 5,
+        "unit_measurement": null,
+        "um": "each",
+        "net_price": "89.95",
+        "gross_worth": "449.75"
+      },
+      {
+        "item_number": 5,
+        "description": "Floral two seater fabric sofa - 2 pieces",
+        "quantity": 2,
+        "unit_measurement": null,
+        "um": "each",
+        "net_price": "199.00",
+        "gross_worth": "398.00"
+      }
+    ],
+    "summary": {
+      "vat_percentage": 10,
+      "net_worth": "$287.00",
+      "total_vat": "$31.57",
+      "gross_worth": "$315.70"
+    },
+    "currency": null
+  },
+  "ocr_text": "Invoice\nno: 28935386\nDate of issue:\n02/25/2017\nSeller:\nClient:\nBishop Group\nMayer, Richardson and Gamble\n400 Rebekah Lake\n5482 Stephens Village Suite 724\nLake Brittanyton, KY 19192\nNorth Michaeltown, IA 70996\nTax Id: 927-78-0136\nTax Id: 915-85-9642\nIBAN: GBZIETPX44286405633541\nITEMS\nNo.\nDescription\nQty\nUM\nNet price\nNet worth\nVAT [%]\nGross\nworth\n1.\nMarble Beautiful White Coffee\n1,00\neach\n271,01\n271,01\n10%\n298,11\nTable Top Malachite Inlay Art\nHome Decor H5372\n2\nMulti Color Elephant Design\n1,00\neach\n1 751,25\n1 751,25\n10%\n1 926,37\nWhite Dinning Table Top Marble\nHall Table 36 Inches\n3\nOctober Mist\nDeer Metal Side\n5,00\neach\n89,95\n449,75\n10%\n494,73\nTable by Rosemary Millette\nFloral two seater fabric sofa\n2,00\neach\n199,00\n398,00\n10%\n437,80\nSUMMARY\nVAT [%]\nNet worth\nVAT\nGross worth\n10%\n2 870,01\n287,00\n3 157,01\nTotal\n$ 2 870,01\n$ 287,00\n$ 3 157,01",
+  "meta": {
+    "source_image": "dataset\\invoice\\batch1-1026.jpg",
+    "classification_confidence": 0.65,
+    "classification_method": "rules_fallback",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 150.398,
+    "ocr_time_seconds": 10.331,
+    "classification_time_seconds": 31.873,
+    "extraction_time_seconds": 108.193
+  }
+}

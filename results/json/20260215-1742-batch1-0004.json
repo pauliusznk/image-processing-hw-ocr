@@ -1,0 +1,82 @@
+{
+  "document_type": "invoice",
+  "fields": {
+    "invoice_number": "16273983",
+    "date_of_issue": "04/01/2017",
+    "seller": "Reyes, Holloway and Lee",
+    "client": "Castillo LLC",
+    "address_seller": {
+      "street": "38676 Johnson Burg Suite 666",
+      "city": "West Rebeccamouth",
+      "state": "SD",
+      "zipcode": "02588",
+      "country": "Garcialand, VT"
+    },
+    "tax_id_seller": [
+      "909-83-7738"
+    ],
+    "tax_id_client": [
+      "901-88-0463"
+    ],
+    "iban": null,
+    "items": [
+      {
+        "item_number": 1,
+        "description": "Handmade Thick round warm",
+        "quantity": 4,
+        "unit_measurement": "each",
+        "net_price": "44.99",
+        "gross_worth": "179.96"
+      },
+      {
+        "item_number": 2,
+        "description": "Rug White Moroccan Beni",
+        "quantity": 2,
+        "unit_measurement": "each",
+        "net_price": "245.00",
+        "gross_worth": "490.00"
+      },
+      {
+        "item_number": 3,
+        "description": "Ourain Trellis Shag Area Rug Authentic Handmade Carpet",
+        "quantity": 3,
+        "unit_measurement": "each",
+        "net_price": "24.01",
+        "gross_worth": "72.03"
+      },
+      {
+        "item_number": 4,
+        "description": "Leopard Printed Rug Skin Mat",
+        "quantity": 1,
+        "unit_measurement": "each",
+        "net_price": "19.49",
+        "gross_worth": "19.49"
+      },
+      {
+        "item_number": 5,
+        "description": "Cloth Christmas Carpet Xmas Cushion for Kitchen",
+        "quantity": 5,
+        "unit_measurement": null,
+        "net_price": "$15.57 each",
+        "gross_worth": "$34.25"
+      }
+    ],
+    "vat_percentage": "10%",
+    "total_amount": {
+      "subtotal": "819.06",
+      "tax": "74.46",
+      "grand_total": "$893.52"
+    }
+  },
+  "ocr_text": "Invoice\nno: 16273983\nDate of issue:\n04/01/2017\nSeller:\nClient:\nReyes, Holloway and Lee\nCastillo LLC\n38676 Johnson Burg Suite 666\n70391 Kelsey Terrace\nWest Rebeccamouth, SD 02588\nGarcialand, VT 41740\nTax Id: 909-83-7738\nTax Id: 901-88-0463\nIBAN: GBOGVWUL52026848004193\nITEMS\nNo.\nDescription\nQty\nUM\nNet price\nNet worth\nVAT [%]\nGross\nworth\n1.\nHandmade Thick round warm\n4,00\neach\n44,99\n179,96\n10%\n197,96\ncrochet Rug Carpet Mat 97%\nacrylic 3% me Floor Decor\n2\nRug White Moroccan Beni\n2,00\neach\n245,00\n490,00\n10%\n539,00\nOurain Trellis Shag Area Rug\nAuthentic Handmade Carpet\n3\nAbstract\nLiving Room Carpet\n1,00\neach\n24,01\n24,01\n10%\n26,41\nHome Decor Nordic Style\nBedside Area Rug Floor Mats\nLeopard Printed Rug Skin Mat\n1,00\neach\n19,49\n19,49\n10%\n21,44\nLeather Faux Fur Animals Area\nRugs Home Carpets\n5\nlpc Exquisite Durable Foot\n2,00\neach\n15,57\n31,14\n10%\n34,25\nCloth Christmas Carpet Xmas\nCushion for Kitchen\nSUMMARY\nVAT [%]\nNet worth\nVAT\nGross worth\n10%\n744,60\n74,46\n819,06\nTotal\n$ 744,60\n$ 74,46\n$ 819,06",
+  "meta": {
+    "source_image": "dataset\\invoice\\batch1-0004.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 141.709,
+    "ocr_time_seconds": 10.9,
+    "classification_time_seconds": 35.795,
+    "extraction_time_seconds": 95.013
+  }
+}

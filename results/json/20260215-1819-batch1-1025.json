@@ -1,0 +1,65 @@
+{
+  "document_type": "invoice",
+  "fields": {
+    "invoice_number": "64281058",
+    "date_of_issue": "11/08/2019",
+    "seller": "Zuniga, Short and Jensen",
+    "client": "Wells Ltd",
+    "address_from": {
+      "street": "3742 Stephanie Haven Apt: 492",
+      "city": "Port Davidfurt",
+      "state": "NY",
+      "zipcode": "66413"
+    },
+    "address_to": {
+      "street": "",
+      "city": "",
+      "state": "",
+      "zipcode": ""
+    },
+    "tax_id_from": [
+      "984-91-8764",
+      "951-97-2583"
+    ],
+    "iban": "GB6ZBNED14756248228264",
+    "items": [
+      {
+        "item_no": 1,
+        "description": "Gaming PC Desktop Computer",
+        "quantity": 5,
+        "unit_price": "999.50",
+        "net_worth": "4997.50"
+      },
+      {
+        "item_no": 2,
+        "description": "HDMI RGB Intel i7\nRTX 2060,\nHDD+SSD,\nWindows 10,\nWifi",
+        "quantity": 2,
+        "unit_price": "498.63"
+      },
+      {
+        "item_no": 3,
+        "description": "Ryzen Gaming Computer",
+        "quantity": 4,
+        "unit_price": "752.00"
+      }
+    ],
+    "vat_percentage": 10,
+    "gross_worth": "14014.99",
+    "net_worth": "1401.50",
+    "total": {
+      "currency": "$",
+      "amount": "14014.99"
+    }
+  },
+  "ocr_text": "Invoice\nno: 64281058\nDate of issue:\n11/08/2019\nSeller:\nClient:\nZuniga, Short and Jensen\nWells Ltd\n3742 Stephanie Haven Apt: 492\n0691 Adam Brook\nPort Davidfurt, NY 66413\nSouth Brittany, WA 02993\nTax Id: 984-91-8764\nTax Id: 951-97-2583\nIBAN: GB6ZBNED14756248228264\nITEMS\nNo.\nDescription\nQty\nUM\nNet price\nNet worth\nVAT [%]\nGross\nworth\nGaming PC Desktop Computer\n5,00\neach\n999,50\n4 997,50\n10%\n5 497,25\nHDMI RGB Intel i7\nRTX 2060,\nHDD+SSD, Windows 10, Wifi\n2\nRyzen Gaming Computer\n4,00\neach\n752,00\n3 008,00\n10%\n3 308,80\n3\nCustom Built Windows 98 Retro\n1,00\neach\n409,99\n409,99\n10%\n450,99\nGaming Industrial PC Computer\nP2 B Montego II 5GB\nDell Optiplex Desktop Computer\n5,00\neach\n159,95\n799,75\n10%\n879,73\n790 Core i7 8GB RAM 1TB HD\nDVD Windows 10 PC Wifi\n5\nHP Windows 10 Pro Desktop\n2,00\neach\n169,95\n339,90\n10%\n373,89\nComputer Intel QUAD CORE i5\nWifi, Keyboard & Mouse\nDell Optiplex Desktop Computer\n3,00\neach\n169,95\n509,85\n10%\n560,83\nPC Quad Core i5 16GB 1TB HD\nWifi Windows 10 Pro\nFast i7 RGB Gaming Desktop PC\n5,00\neach\n790,00\n3 950,00\n10%\n4 345,00\nComputer VR-Ready WiFi AAA\nFortnite GTAV PUBG 1G3\nSUMMARY\nVAT [%]\nNet worth\nVAT\nGross worth\n10%\n14 014,99\n1 401,50\n15 416,49\nTotal\n$ 14 014,99\n$ 1 401,50\n$ 15 416,49",
+  "meta": {
+    "source_image": "dataset\\invoice\\batch1-1025.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 147.661,
+    "ocr_time_seconds": 12.853,
+    "classification_time_seconds": 42.729,
+    "extraction_time_seconds": 92.079
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "document_type": "invoice",
+  "fields": {
+    "invoice_number": "29593215",
+    "date_of_issue": "11/20/2017",
+    "seller": null,
+    "client": "Hooper Group Washington, Robertson and Howard 41872 Reid Stream North Richardtown, WV 79696 New Jennifer MN 93902 Tax Id: 959-77-0149",
+    "tax_ids": [
+      "959-77-0149",
+      "961-86-4018"
+    ],
+    "iban": null,
+    "items": [
+      {
+        "item_number": 1,
+        "description": "NWT Modcloth Blue Floral",
+        "quantity": 3,
+        "unit_measurement": "each",
+        "net_price": "65.00"
+      },
+      {
+        "item_number": 2,
+        "description": "Formal Full Length Maxi Dress Grace Karin Christmas dress Red Black size Large sleeveless",
+        "quantity": 3,
+        "unit_measurement": "each",
+        "net_price": "4.99"
+      },
+      {
+        "item_number": 3,
+        "description": "Orange Short Dress NWT Papaya Floral dress Medium",
+        "quantity": 1,
+        "unit_measurement": "each",
+        "net_price": "9.00"
+      },
+      {
+        "item_number": 4,
+        "description": "Blue White Women Black Dress Mori Girl",
+        "quantity": 5,
+        "unit_measurement": "each",
+        "net_price": "13.99"
+      },
+      {
+        "item_number": 5,
+        "description": "Puff Sleeve Korean Casual Loose Peter Pan Collar sleeveless dress size 6",
+        "quantity": 4,
+        "unit_measurement": "each",
+        "net_price": "3.99"
+      }
+    ],
+    "vat_percentage": 10,
+    "gross_worth": null,
+    "total_amounts": {
+      "subtotal": "$420.88",
+      "tax": "$42.09",
+      "grand_total": "$462.97"
+    }
+  },
+  "ocr_text": "Invoice\nno: 29593215\nDate of issue:\n11/20/2017\nSeller:\nClient:\nHooper Group\nWashington, Robertson and Howard\n41872 Reid Stream\n7964 Joyce Highway\nNorth Richardtown, WV 79696\nNew Jennifer, MN 93902\nTax Id: 959-77-0149\nTax Id: 961-86-4018\nIBAN: GB36KYGW45822746301062\nITEMS\nNo.\nDescription\nQty\nUM\nNet price\nNet worth\nVAT [%]\nGross\nworth\nNWT Modcloth Blue Floral\n3,00\neach\n65,00\n195,00\n10%\n214,50\nFormal Full Length Maxi Dress\n2\nChristmas Dress Grace Karin\n4,00\neach\n9,99\n39,96\n10%\n43,96\nSleeveless Christmas dress Red\nBlack size Large\n3\nLumiere Large Multicolored\n3,00\neach\n4,99\n14,97\n10%\n16,47\nOrange Short Dress NWT\nPapaya Floral Dress Medium\n1,00\neach\n9,00\n9,00\n10%\n9,90\nBlue White\n5\nWomen Black Dress Mori Girl\n1,00\neach\n13,99\n13,99\n10%\n15,39\nPuff Sleeve Korean Casual\nLoose Peter Pan Collar\nBoden black blue floral short\n4,00\neach\n36,99\n147,96\n10%\n162,76\nsleeve dress size 6\nSUMMARY\nVAT [%]\nNet worth\nVAT\nGross worth\n10%\n420,88\n42,09\n462,97\nTotal\n$ 420,88\n$ 42,09\n$ 462,97",
+  "meta": {
+    "source_image": "dataset\\invoice\\batch1-1028.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 127.445,
+    "ocr_time_seconds": 11.635,
+    "classification_time_seconds": 31.243,
+    "extraction_time_seconds": 84.566
+  }
+}

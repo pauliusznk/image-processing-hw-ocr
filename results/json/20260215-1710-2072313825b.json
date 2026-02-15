@@ -1,0 +1,31 @@
+{
+  "document_type": "email",
+  "fields": {
+    "from_name": null,
+    "from_company": "Sandicray Edecerber",
+    "from_address": "Sandicray Edecerber 16 , 1eneral Hospital Berlin-Mitte",
+    "to_names": [
+      "Even Hurwitz"
+    ],
+    "cc_names": [
+      "Helmut Reif",
+      "Jeffrey Seeman",
+      "Rick Solana"
+    ],
+    "subject": "RE: paper",
+    "date": "1999-06-16T11:56:00+02:00",
+    "content": null,
+    "summary": null
+  },
+  "ocr_text": "Orlginal Message --=\nFeom:\nSandicray Edecerber 16 , 1999 11.56 AM\nI\nTo:\nHurwitz, Even\nCc:\nReif; Helmut; Seeman , Jeffrey 1; Solana, Rick P\nSubject:\nRE: paper\nEven,\nDont be horrified; When there is too much to do, it is impossible to remember everything   Yesterday:\nKarsten Schmidt took the position, prompted by Helmut Reif, that to meet with the German Minister of\nHealth with a\npublication already in hand would be counter productive:\nThis position carried the day:\nTherefore, the document will not be published.\nthink that\ncan speak for &ll of the scientists who were\ninvolved, even marginally, in this effort that this decision is consistent with our position.\nNow we can go\non to the next step.\nBest regards:\nTed",
+  "meta": {
+    "source_image": "dataset\\email\\2072313825b.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 66.315,
+    "ocr_time_seconds": 8.954,
+    "classification_time_seconds": 31.997,
+    "extraction_time_seconds": 25.364
+  }
+}

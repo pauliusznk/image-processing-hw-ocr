@@ -1,0 +1,23 @@
+{
+  "document_type": "email",
+  "fields": {
+    "from_name": "Janet W. Buckner",
+    "to_name": "Felicia",
+    "cc_names": null,
+    "bcc_names": null,
+    "primary_date": "2000-10-16T14:07:02+07:00",
+    "last_modified_date": "2000-Oct-16 14.08+07",
+    "subject": "BKS' Deck"
+  },
+  "ocr_text": "From: Buckner; Janet W.\nTo:\nFelicia\nCC:\nBCC:\nPrimary Date: 10/16/2000 2;02.07 PM\nIast Modificd Datc: 2000-Oct-16 14*02.08\nLast Touched Datc:\nScnt Datc; 2000-Oct-16 14.02+07\nReccivcd Datc; 2000-Oct-16 14:02.07\nSubjcct: BKS' Deck\nAttechments:\n1207bkg upt\nFelicia:\nWould not swear on it, but I think this is Bryan's final deck;\n8\n8\nRJROOOOOO1025007988\n70011 9444\nYoung;",
+  "meta": {
+    "source_image": "dataset\\email\\527840749+-0749.jpg",
+    "classification_confidence": 0.65,
+    "classification_method": "rules_fallback",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 126.889,
+    "ocr_time_seconds": 7.948,
+    "classification_time_seconds": 95.13,
+    "extraction_time_seconds": 23.81
+  }
+}

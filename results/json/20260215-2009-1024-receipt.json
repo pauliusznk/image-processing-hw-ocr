@@ -1,0 +1,21 @@
+{
+  "document_type": "receipts",
+  "fields": {
+    "store": "Asia",
+    "date": null,
+    "total": null,
+    "currency": null,
+    "payment_method": null
+  },
+  "ocr_text": "Asia\nBuftet\n14727,5 Rina Idi St\nSan Fernando\nCA 91340\nTel ; (818 )898-o880\nWeekEnd\nDinner\nDate; ov-15-06-N Time; 5; I7PM' #\n84\nServer\nTb# :\nD4\nNo , of Guest\nWeeken\nDinner\n27.96\nCoke\n3 ,16\nAMOUNT\n31.12\nTax(9X)\n2,80\nAMERICW\nTOTAL\n33, 92\nEPress\nlagested Tip (10X)\n3,39\n(15X)\n5,09\n20x)\n6 , 78\nTHANK  YOU VERY MUCh ,\nNew\n2",
+  "meta": {
+    "source_image": "dataset\\receipts\\1024-receipt.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 90.022,
+    "ocr_time_seconds": 2.446,
+    "classification_time_seconds": 26.171,
+    "extraction_time_seconds": 61.405
+  }
+}

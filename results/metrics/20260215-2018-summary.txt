@@ -1,0 +1,9 @@
+Images: 100
+Known-label images: 100
+Accuracy: 0.910
+
+=== Timing Statistics ===
+Total batch time: 11958.92s
+Average per image: 119.536s
+Min time: 33.318s
+Max time: 274.268s

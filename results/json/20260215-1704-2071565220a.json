@@ -1,0 +1,28 @@
+{
+  "document_type": "email",
+  "fields": {
+    "from_name": "Mark Cavone",
+    "date": "1996-06-21T11:05:00Z",
+    "subject": "Issues of Interest",
+    "to_names": [
+      "Eric Ostern"
+    ],
+    "cc_names": [
+      "Liz Culley",
+      "Erna Marini"
+    ],
+    "content": null,
+    "summary": null
+  },
+  "ocr_text": "From: Cavone, Mark on Fri, Jun 21, 1996 11.05 AM\n1\nSubject: RE: Issues of Interest\nTo: Ostern; Eric\nCc: Culley, Liz; Marini, Erna\nEric, CRI can generate the labels\nRichmond should send CRI the mail tape will all the\nnames in 700 record format We will also need a copy of the newsletter as soon as you have\nit.\nPlease let me know when CRI will be receit\nthe tape.\nThis should be no problem;\nThanks,\nMC\nving",
+  "meta": {
+    "source_image": "dataset\\email\\2071565220a.jpg",
+    "classification_confidence": 0.65,
+    "classification_method": "rules_fallback",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 85.077,
+    "ocr_time_seconds": 8.959,
+    "classification_time_seconds": 56.4,
+    "extraction_time_seconds": 19.718
+  }
+}

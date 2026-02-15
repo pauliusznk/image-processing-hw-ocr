@@ -1,0 +1,23 @@
+{
+  "document_type": "invoice",
+  "fields": {
+    "invoice_number": "94052403",
+    "date": "03/30/2021",
+    "seller": "Client:",
+    "buyer": "Woods, Hubbard and Harris",
+    "total_amount": null,
+    "vat_amount": null,
+    "currency": "$"
+  },
+  "ocr_text": "Invoice\nno: 94052403\nDate of issue:\n03/30/2021\nSeller:\nClient:\nWoods, Hubbard and Harris\nHines, Ingram and Fisher\n6005 Sutton Fort Apt: 363\n67543 David Springs\nShanemouth, MN 22878\nJenniferhaven, IA 04824\nTax Id: 902-91-5275\nTax Id: 928-97-9700\nIBAN: GB3ZTYVMO2581764425566\nITEMS\nNo.\nDescription\nQty\nUM\nNet price\nNet worth\nVAT [%]\nGross\nworth\n1.\n6'x3' Marble Dining Center\n5,00\neach\n6 647,61\n33 238,05\n10%\n36 561,85\nTable Marquetry Inlay Italian\nMosaic Patio Arts H3112\n2\nBlue Shiny Stone Floral Art\n5,00\neach\n3 960,00\n19 800,00\n10%\n21 780,00\nDinning Table Top Marble\nKitchen Table Top 48 Inches\n3\n12\" White Marble Coffee Table\n1,00\neach\n295,73\n295,73\n10%\n325,30\nTop Lapis Turquoise Floral Inlay\nHome Decors W538\nMarquetry Art Marble\n5,00\neach\n2 860,00\n14 300,00\n10%\n15 730,00\nTable Top Octagon Dinning\nTable Home Assent 48 Inches\n5\n6'x3' Black Marble Large Dining\n3,00\neach\n5 303,66\n15 910,98\n10%\n17 502,08\nTable Top Very Fine Handmade\nMarquetry Birds Art\n6\n60 Inches Marble Dinning Table\n5,00\neach\n5 908,00\n29 540,00\n10%\n32 494,00\nTop Hand Inlaid Garden Table\nwith Gemstones\n2 Industrial Live edge Legs 16\"\n2,00\neach\n159,28\n318,56\n10%\n350,42\nTall Cast Aluminum Cast Iron\nCoffee Table Bench\nSUMMARY\nVAT [%]\nNet worth\nVAT\nGross worth\n10%\n113 403,32\n11 340,33\n124 743,65\nTotal\n$ 113 403,32\n$ 11 340,33\n$ 124 743,65\nInlay",
+  "meta": {
+    "source_image": "dataset\\invoice\\batch1-0518.jpg",
+    "classification_confidence": 0.65,
+    "classification_method": "rules_fallback",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 207.236,
+    "ocr_time_seconds": 16.428,
+    "classification_time_seconds": 68.757,
+    "extraction_time_seconds": 122.05
+  }
+}

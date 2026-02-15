@@ -1,0 +1,21 @@
+{
+  "document_type": "email",
+  "fields": {
+    "from": "Chaikin; Karen",
+    "to": "Beauchemin, Ed; McCormick, Brendan J;; Schreffler, Brad B.; Darden, Bennie C ; Crabill, Jean B",
+    "cc": "Richards, TC; Daragan, Karen M;; Turner,",
+    "subject": "NC We Card training",
+    "date": null
+  },
+  "ocr_text": "From:\nChaikin; Karen\nSent:\nMonday, August 16, 1999 8.29 AM\nTo:\nBeauchemin, Ed; McCormick, Brendan J;; Schreffler, Brad B.; Darden, Bennie C ; Crabill, Jean B\nCc:\nRichards, TC; Daragan, Karen M;; Turner,\nSmith, Dan; Hanson, Terry D\n1\nSubject:\nNC We Card training\nBrad,\nThe Coalition for Responsible Tobacco Retailing is sponsoring We Card training sessions in 5 cities\nin North Carolina.\nAs you know, retailers welcome and appreciate this opportunity as it helps them and their employees\nknow and understand the minimum-age sales law; learn how to handle a minor or an abusive\ncustomer;how to check for ID and much more.\nWe\nappreciate the FSF's past support to promote We Card and ask that we can send flyers for\nTSMs and SAMs to hand out to their independent and chain accounts.\nIf yes, please let me know via e-mail quantity of flyers you\nand addresses of where they should\nbe sent (include phone number)  Multiple destinations are fine.\nHenry;\nneed",
+  "meta": {
+    "source_image": "dataset\\email\\2071862544b_2545.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 83.038,
+    "ocr_time_seconds": 9.646,
+    "classification_time_seconds": 26.8,
+    "extraction_time_seconds": 46.592
+  }
+}

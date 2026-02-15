@@ -1,0 +1,79 @@
+{
+  "document_type": "invoice",
+  "fields": {
+    "invoice_number": "74093352",
+    "date_of_issue": "10/18/2020",
+    "seller": [
+      "Matthews-Olson",
+      "Miller, Coleman and Rivera"
+    ],
+    "client": "Lake Scott, UT 74808",
+    "tax_id_971785476": null,
+    "tax_id_961918761": null,
+    "iban": "GB29YJZA36672521634669",
+    "items": [
+      {
+        "item_number": 1,
+        "description": "Kids Jordan Retro Sz 2y",
+        "quantity": 2,
+        "unit_measurement": null,
+        "net_price": "$72.00"
+      },
+      {
+        "item_number": 2,
+        "description": "shoes size 5 Blue Warm Zip Up Easy On Easy Off",
+        "quantity": 3,
+        "unit_measurement": null,
+        "net_price": "$19.99"
+      },
+      {
+        "item_number": 3,
+        "description": "Lands' End Kids Boys Snow Retro Sz",
+        "quantity": 4,
+        "unit_measurement": null,
+        "net_price": "$9.50"
+      },
+      {
+        "item_number": 4,
+        "description": "Joma Boys Youth Super Copa Zip Up Easy On Easy Off",
+        "quantity": 3,
+        "unit_measurement": null,
+        "net_price": "$19.99"
+      },
+      {
+        "item_number": 5,
+        "description": "Joma Boys Youth Gol-102 Retro Sz",
+        "quantity": 5,
+        "unit_measurement": null,
+        "net_price": "$19.99"
+      },
+      {
+        "item_number": 6,
+        "description": "Soccer Cleats Shoes Size 4 Retro Sz",
+        "quantity": 5,
+        "unit_measurement": null,
+        "net_price": "$19.99"
+      }
+    ],
+    "vat_percentage": "10%",
+    "gross_worth": "$395.25",
+    "total_amount": {
+      "subtotal": "$359.32",
+      "tax": "$35.93",
+      "grand_total": "$395.25"
+    },
+    "currency": null,
+    "content": ""
+  },
+  "ocr_text": "Invoice\nno: 74093352\nDate of issue:\n10/18/2020\nSeller:\nClient:\nMatthews-Olson\nMiller, Coleman and Rivera\n5687 Samuel Wall Apt: 125\n26057 John Flat Apt: 069\nDavisberg, CA 50111\nLake Scott, UT 74808\nTax Id: 971-78-5476\nTax Id: 961-91-8761\nIBAN: GB29YJZA36672521634669\nITEMS\nNo.\nDescription\nQty\nUM\nNet price\nNet worth\nVAT [%]\nGross\nworth\n1.\nKids Jordan\n7 Retro Sz 2y\n2,00\neach\n72,00\n144,00\n10%\n158,40\n2\nshoes size 5\n3,00\neach\n5,80\n17,40\n10%\n19,14\n3\nLands' End Kids Boys Snow\n4,00\neach\n9,50\n38,00\n10%\n41,80\nWinter Boots Size 5 Blue Warm\nZip Up Easy On Easy Off\nJoma Boys Youth Super Copa\n3,00\neach\n19,99\n59,97\n10%\n65,97\n102 Soccer Cleats 2.5 White\nYellow Blue Futbol NEW\n5\nJoma Boys Youth Gol-102\n5,00\neach\n19,99\n99,95\n10%\n109,94\nSoccer Cleats Shoes Size 4\nWhite Red Futbol NEW\nSUMMARY\nVAT [%]\nNet worth\nVAT\nGross worth\n10%\n359,32\n35,93\n395,25\nTotal\n$ 359,32\n$ 35,93\n$ 395,25\nboys",
+  "meta": {
+    "source_image": "dataset\\invoice\\batch1-0516.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 134.876,
+    "ocr_time_seconds": 10.839,
+    "classification_time_seconds": 33.633,
+    "extraction_time_seconds": 90.403
+  }
+}

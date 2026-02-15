@@ -1,0 +1,21 @@
+{
+  "document_type": "receipts",
+  "fields": {
+    "store": "Katana",
+    "date": null,
+    "total": "8143.71",
+    "currency": "$",
+    "payment_method": null
+  },
+  "ocr_text": "Katana\nSushi\n2818\nHewitt\nAve\nEverett.\nWa\n98201\n425-512-9361\n7++**##\nServer:\nMichae|\nc\n05/11/18\n8 : 47\nPM\nCheck\n#93\nTable\n02\nHamachi\nCollar\n212.00\nMega\nPoke\nBow 1\n817.00\nHamachi\nSashimi\n$12.00\nMaguro\nSashim i\n811.00\nSalmon\nSashimi\n810.00\n3\nSockeye\nSalmon\nSashim i\n836 . 00\nHamachi\nJapapeno\n812.00\nSalmon\nCollar\n810. 00\nEscolar\nSashimi\n811.00\nSubtotal\n8131.00\nTax\n812.71\nTotal\n8143.71\n#*******\n157.41\nThank\nYou\nfor\nyour\nvisit.",
+  "meta": {
+    "source_image": "dataset\\receipts\\1007-receipt.jpg",
+    "classification_confidence": 0.99,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 60.348,
+    "ocr_time_seconds": 3.217,
+    "classification_time_seconds": 17.821,
+    "extraction_time_seconds": 39.309
+  }
+}

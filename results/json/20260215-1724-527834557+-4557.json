@@ -1,0 +1,21 @@
+{
+  "document_type": "email",
+  "fields": {
+    "from": "Hook, Twyna",
+    "to": "Ainsworth; W.E. (Gene); Coulter; Geni W; Duran, Jim W;; Fish; John H; Gomez, H",
+    "cc": "BCC:",
+    "subject": "Attachments:",
+    "date": null
+  },
+  "ocr_text": "From:Hook, Twyna\nTo:Ainsworth; W.E. (Gene); Coulter; Geni W; Duran, Jim W;; Fish; John H; Gomez, H\nBert; Hampton, Mary E;; Jones, Murray W:; Muench, Joyce P; Rixter, Denise $;;\nRutledge, Joan C; Spencer, Joan N; Suggs, Michael L;\nCC:\nBCC:\nPrimary Date: 12/14/1998 5.41.22 AM\nLast Modified Date: 1998-Dcc-15 07.50.11\nLast Touched Date:\nSent Date: 1998-Dec-14 05.41.21\nReceived Date; 1998-Dec-14 05.41.22\nSubject:\nAttachments:\n98-37dc\nTobltrdoc\nThis is the letter to employees and rcleasc 1o thc cmploycc conccrning companics\ndownsizing:\n8\nG\nRJR1O00031\n70001 6667",
+  "meta": {
+    "source_image": "dataset\\email\\527834557+-4557.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 76.561,
+    "ocr_time_seconds": 8.669,
+    "classification_time_seconds": 39.904,
+    "extraction_time_seconds": 27.988
+  }
+}

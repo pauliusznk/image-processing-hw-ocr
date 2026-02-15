@@ -1,0 +1,23 @@
+{
+  "document_type": "receipts",
+  "fields": {
+    "store": null,
+    "total_amount": "$15.00",
+    "from": null,
+    "subject": null,
+    "title": null,
+    "content": null,
+    "summary": null
+  },
+  "ocr_text": "GOLDEN BOWL  TERIYAK [\n8610 GARFIELD\nAVE\nSOUTH GATE,\nCA_\n90280\nTEL:\n(5i62 ) 928-8999\nREG\n05-18-2019\n11:19\nAM\nManager1\nMC #01\n000141\nORDER#\nC0o14 1\n1\n#1\nCHKN\nPLATE\n$9.39\n+\nAVOCADO\n$1.95\nMD _\nDRINK\n$2.29\nXHERE\nTAX\n$1. 40\nTOTAL\n$15\n03\nCASH\nS20 . 00\nCG\n84.97",
+  "meta": {
+    "source_image": "dataset\\receipts\\1004-receipt.jpg",
+    "classification_confidence": 0.6,
+    "classification_method": "rules_fallback",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 39.25,
+    "ocr_time_seconds": 2.449,
+    "classification_time_seconds": 15.157,
+    "extraction_time_seconds": 21.644
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "document_type": "email",
+  "fields": {
+    "from_invoice_number": null,
+    "to_invoice_number": null,
+    "cc_invoice_numbers": [
+      "Nancy W. Monlgomcry"
+    ],
+    "bcc_invoice_numbers": [],
+    "primary_date": "1997-01-10",
+    "subject": "Mail Kits for Personal Selling in FL",
+    "altachements": [
+      "Todd; this is in the works, Hc is currently working on it"
+    ],
+    "from_name": "Rccsc, Bonnic L.",
+    "to_names": [
+      "Holbrook, Todd M_",
+      "Snyder, Lindsay D."
+    ],
+    "content": null,
+    "summary": null,
+    "attachments": []
+  },
+  "ocr_text": "From;Rccsc, Bonnic ,\nTo;Bralton, Dcborah B;; Monlgomcry, Nancy W.\nCC:\nBCC:\nPrimary Dalc: 1/10/1997 12.24.01 PM\nIasl Modified Datc; 1997-Dcc-29 09.32.54\nIast Touchcd Datc:\nSent Dale: 1997-Jan-10 12.24.00\nReccivcd Datc: 1997-Jan-]0 12.24.01\nSubject: Mail Kils for Pcrsonal Sclling in FL{F}\nAltachments:\nHcard from Todd; this is in thc works, hc is currently working on it Same as last year ,\n(wo coupons Im slill trying to gcL an answcr Irom Camcl,\nFrom: Rccsc, Bonnic L.\nTo: Holbrook, Todd M_\nSnydcr, Lindsay D.\nCc: Monlgomcry, Nancy W:; Bratton, Deborah B.\nSubjcct: Mail Kits for Personal Selling in FL\nDalc; Friday, January 10, 1997 8.24AM\nTodd, do you know if any planning has takcn placc on thc 97 mail kits for thc two races\nin Florida whcrc wc will bc doing pcrsonal selling?\nLasl ycar thc Winston Kil was a lcllcr aboul thc race, and two coupons Both\n12/31/96\nonc was for $3 olf 4 packs or 1 carton, and the Other was a BIGIF Lindsays\ngroup providcd a paragraph about thc racc to Brcnda Granderson in Consumer Relations\nand shc incorporatcd thc paragraph into a lelter, The letler was aclually run on legal-size\npaper, with thc Lwo coupons &s tcar-(ffs on thc bottom 0f thc Icttcr: Ihavc a samplc of thc\npapcT, coupons, and cnvclopc uscd, Included with thc letter was a survey about Iuture\npurchasc intenL\nDo you know who is in charge of planning for thc mail kit this\n? New coupons will\nhavc (o bc printcd, and thc survey may necd to be revised,\nPls Ict mc know. Thanks.\n8\n8\nRJR1667071016\n70000 7419\nexpired\nyear\"",
+  "meta": {
+    "source_image": "dataset\\email\\527795578+-5578.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 82.459,
+    "ocr_time_seconds": 11.285,
+    "classification_time_seconds": 28.338,
+    "extraction_time_seconds": 42.835
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "document_type": "invoice",
+  "fields": {
+    "invoice_number": "59326638",
+    "date_of_issue": "05/27/2013",
+    "seller": [
+      "Ashley-Shaw"
+    ],
+    "client": [
+      "Huber, Walker and Mullins",
+      "USNS Wilson",
+      "FPO AE 36740",
+      "Heatherberg, NC 86915"
+    ],
+    "tax_id": {
+      "seller": [
+        "926-83-7399"
+      ],
+      "client": [
+        "929-76-2624"
+      ]
+    },
+    "iban": null,
+    "items": [
+      {
+        "item_number": 1,
+        "description": "Obama An Intimate Portrait by",
+        "quantity": 5,
+        "unit_price": "4.99"
+      },
+      {
+        "item_number": 2,
+        "description": "My Passion for Design by Barbra",
+        "quantity": 2,
+        "unit_price": "5.56"
+      },
+      {
+        "item_number": 3,
+        "description": "Entertaining Streisand",
+        "quantity": 3,
+        "unit_price": "4.49"
+      },
+      {
+        "item_number": 4,
+        "description": "Most famous bracelet in the world",
+        "quantity": 1,
+        "unit_price": "20.00"
+      },
+      {
+        "item_number": 5,
+        "description": "Straw Dogs Thoughts on by Gray John L_. Paperback",
+        "quantity": 5,
+        "unit_price": "13.99"
+      }
+    ],
+    "vat_percentage": 10,
+    "gross_worth": "$158.38",
+    "net_worth": null,
+    "total": {
+      "subtotal": "$76.95",
+      "tax": "$14.40",
+      "grand_total": "$143.98"
+    }
+  },
+  "ocr_text": "Invoice\nno: 59326638\nDate of issue:\n05/27/2013\nSeller:\nClient:\nAshley-Shaw\nHuber , Walker and Mullins\nUSNS Wilson\n1892 Jeffrey Avenue Suite 966\nFPO AE 36740\nHeatherberg, NC 86915\nTax Id: 926-83-7399\nTax Id: 929-76-2624\nIBAN: GB39MTZP97412080764188\nITEMS\nNo.\nDescription\nQty\nUM\nNet price\nNet worth\nVAT [%]\nGross\nworth\n1.\nObama An Intimate Portrait by\n5,00\neach\n4,99\n24,95\n10%\n27,45\nPete Souza P-F EGOOK\n2\nMy Passion for Design by Barbra\n2,00\neach\n5,56\n11,12\n10%\n12,23\nStreisand\n3\nEntertaining\n4,00\neach\n4,49\n17,96\n10%\n19,76\nMost famous bracelet in the\n1,00\neach\n20,00\n20,00\n10%\n22,00\nworld\n5\nStraw Dogs\nThoughts on\n5,00\neach\n13,99\n69,95\n10%\n76,95\nHumans and Other Animals,\nPaperback by Gray, John, L_\nSUMMARY\nVAT [%]\nNet worth\nVAT\nGross worth\n10%\n143,98\n14,40\n158,38\nTotal\n$ 143,98\n$ 14,40\n$ 158,38",
+  "meta": {
+    "source_image": "dataset\\invoice\\batch1-1023.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 147.592,
+    "ocr_time_seconds": 11.445,
+    "classification_time_seconds": 51.429,
+    "extraction_time_seconds": 84.716
+  }
+}

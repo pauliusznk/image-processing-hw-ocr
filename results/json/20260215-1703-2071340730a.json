@@ -1,0 +1,26 @@
+{
+  "document_type": "email",
+  "fields": {
+    "from_name": "Glus Helen",
+    "from_organization": "Camilleri Louls",
+    "sent_date": "1998-07-20T19:20:00Z",
+    "subject": "RE: Import Marks",
+    "importance": "High",
+    "to_name": null,
+    "to_organization": null,
+    "cc_name": null,
+    "cc_organization": null,
+    "content": "Is it an exclusive import agreement?\nWhat's the duration of the agreement?\nThanks,\nLouis"
+  },
+  "ocr_text": "From:\nGlus, Helen on behalf of Camilleri Louls\nSent:\nEarangtouguiarz8\n1998 7.20 PM\n1\nSubject:\nRE: Import Marks\nImportance:\nHigh\nMarty,\nIs it an exclusive import agreement?\nWhat's the duration of the agreement?\nThanks, Louis\nP.S:\nDoes Imperial have any say/control on pricing?",
+  "meta": {
+    "source_image": "dataset\\email\\2071340730a.jpg",
+    "classification_confidence": 0.65,
+    "classification_method": "rules_fallback",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 91.241,
+    "ocr_time_seconds": 9.073,
+    "classification_time_seconds": 59.162,
+    "extraction_time_seconds": 23.005
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "document_type": "invoice",
+  "fields": {
+    "invoice_number": null,
+    "date_of_issue": null,
+    "total_amount": "$1535",
+    "currency": "USD",
+    "seller": null,
+    "client": null,
+    "content": "",
+    "summary": null,
+    "subtotal": "$1535.00"
+  },
+  "ocr_text": "3M 130C Splicing 3/4\" x 30'\nS9\nSprayon #803 Blue Layout Fluid\nS9\n416-1LB\nSuperbonder\nS152\nAkzo Thinner C25/90S\nS119\nDynafine Backsplash Sand. Pads\nS19\nSubtotal\nS2312\nTAX 0%\nSo.00\nTotal\nS2312\nPaid\n$1535\nPaid\nBalance Due\nSO.00",
+  "meta": {
+    "source_image": "dataset\\invoice\\batch2-0053.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 50.46,
+    "ocr_time_seconds": 9.733,
+    "classification_time_seconds": 14.692,
+    "extraction_time_seconds": 26.035
+  }
+}

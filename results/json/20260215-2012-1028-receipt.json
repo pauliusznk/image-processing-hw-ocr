@@ -1,0 +1,23 @@
+{
+  "document_type": "receipts",
+  "fields": {
+    "store": null,
+    "total_amount": "$ 504.69",
+    "from": null,
+    "subject": null,
+    "title": null,
+    "content": "",
+    "summary": null
+  },
+  "ocr_text": "DIlGLAS BURGERS #15\n11325 WesAirgtcn\nKnat\nIae\n90805\n639-1434\nCheck\n20018\n2/09/19\n5;30p=\nCovod\n#eerican che\nonionse\n518 ZUCChIN\n2.49\nRaspberty Ice Te\nsesare\n#REGULARtt\nLucon\ntrald avdcadott\nMaKE SPECIAL\ncnicris rings\n2.49\neionade\nSERV. CHARGE(2X}\n0,61\nSubfTt]\n#DRV\nTHRU\n34.21\nCash\n34.21\nIfie",
+  "meta": {
+    "source_image": "dataset\\receipts\\1028-receipt.jpg",
+    "classification_confidence": 0.98,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 35.394,
+    "ocr_time_seconds": 1.477,
+    "classification_time_seconds": 14.555,
+    "extraction_time_seconds": 19.362
+  }
+}

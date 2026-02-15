@@ -1,0 +1,35 @@
+{
+  "document_type": "receipts",
+  "fields": {
+    "invoice_number": "#14",
+    "vendor_name": null,
+    "address": "HP Pho Ga\n8930 Missjon Dr\nRosemead,CA 91770",
+    "phone_number": "(626)288-9999",
+    "date": "Apr 01, 2019",
+    "time": null,
+    "server": "Admin",
+    "table_no": "14",
+    "item_name": "Pho Ga (Large)",
+    "quantity": null,
+    "price_per_unit": "$5.25",
+    "subtotal": "22.25",
+    "tax": {
+      "value": "2.11",
+      "rate": [
+        "40%"
+      ]
+    },
+    "service_charge": "8 . 90"
+  },
+  "ocr_text": "#14\nHP Pho Ga\n8930 Missjon Dr\n#102\nRosemead,CA 91770\nPhone (626)288-9999\nDate: Apr 01,_\n2019\nTille\n05 : 12PM\nServer : Admin\nBi ] 1 ; 59980\nTable\n14\nPho Ga ( Sma]) )\n8 , 00\nPho Ga (Large)\n9,00\nGoi Cuon\n5.25\nSubtota]\n22.25\nTaX\n2.11\nTotal\n24,36\nS. Service Charge 40%\n8 . 90\nTotal\n$33\n26\nSuggested\n15% (3.65)\n18% ( 4,38)\n20% ( 4,87 )\nOpen Time\nApr 01 , 2019 04:39PM\nPrinted By\nAdmin\nThank you for Coming\nTip",
+  "meta": {
+    "source_image": "dataset\\receipts\\1012-receipt.jpg",
+    "classification_confidence": 0.98,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 67.198,
+    "ocr_time_seconds": 2.221,
+    "classification_time_seconds": 29.057,
+    "extraction_time_seconds": 35.919
+  }
+}

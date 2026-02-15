@@ -1,0 +1,21 @@
+{
+  "document_type": "receipts",
+  "fields": {
+    "store": "UMIX",
+    "date": null,
+    "total": null,
+    "currency": null,
+    "payment_method": "CASH"
+  },
+  "ocr_text": "UMIX\n4327(\nN\nExpressway 77/83\n956-350-8686\nBr ownsvi lle;\nTX 78521\n956-543-5089\nTicket #215406\nUser : KRIST\nStation:1\nSales Rep KRIST\n4/24/2016 6:30:31 PM\nItem\nQty\nPrice\nTotal\nDescript ion\n100027\n5 ..25\n5.25\nPARIS\n100026\n4.95\n4.95\nLE CLASSIQUE\nSubtotal\n10. 20\nTax\n0. 84\nTotal\n11. 04\nTender\nCASH\n20. 00\nChange   (CASH)\n-8.96\nNumber  of items purchased:2",
+  "meta": {
+    "source_image": "dataset\\receipts\\1017-receipt.jpg",
+    "classification_confidence": 0.6,
+    "classification_method": "rules_fallback",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 52.425,
+    "ocr_time_seconds": 2.448,
+    "classification_time_seconds": 25.361,
+    "extraction_time_seconds": 24.615
+  }
+}

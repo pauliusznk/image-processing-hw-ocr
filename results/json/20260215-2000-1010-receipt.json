@@ -1,0 +1,21 @@
+{
+  "document_type": "receipts",
+  "fields": {
+    "store": "Frienly Red\"' $",
+    "date": "07/21/2018",
+    "total": "77.83",
+    "currency": "$",
+    "payment_method": null
+  },
+  "ocr_text": "Frienly Red\"' $\nof Wincham\n22 Haverhi |  Rd\nWincham NH\n603-437-7251\nServer\nGiancarlo\n07/21/2018\n104/1\n12:56 PM\nGuests:\n2\n10076\nRepr int #:\n1\nCadi ] lac Margarita (2 @14.00)\n28. 00\nPatron Si lver\nMaryland Crab Cakes\n14.00\nChicken Caprese\n12. 00\nChix Parm Sandwich\n10.00\nBud Light\n(2 @3. 70)\n7.40\nSubtotal\n71.40\nTax\n6.43\nTotal\n77.83\nBalance\nDue\n77_\n83\nJoin uS on\nFacebook\n&",
+  "meta": {
+    "source_image": "dataset\\receipts\\1010-receipt.jpg",
+    "classification_confidence": 0.45,
+    "classification_method": "rules_fallback",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 59.574,
+    "ocr_time_seconds": 2.545,
+    "classification_time_seconds": 23.732,
+    "extraction_time_seconds": 33.296
+  }
+}

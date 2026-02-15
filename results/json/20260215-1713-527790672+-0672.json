@@ -1,0 +1,48 @@
+{
+  "document_type": "email",
+  "fields": {
+    "from": "Byron Nelson",
+    "to": [
+      "Judy Albert",
+      "Carolyn",
+      "Jackie Cohen (A WMA)",
+      "Frank",
+      "Goody",
+      "Henry",
+      "Hollant",
+      "Chris Holt",
+      "Hurst",
+      "Jim John",
+      "Benjamin Kelahan",
+      "Cheryl Klein",
+      "Walt Klein",
+      "Lbeckwith",
+      "Rob Meyne",
+      "Mkatz",
+      "Morrow Powers",
+      "Randy Roger Ron Suggsm Matthew Tilley whitey"
+    ],
+    "cc": [
+      "Bob Fackler",
+      "Bob Stone"
+    ],
+    "primary_date": "1998-08-18T13:02:27Z",
+    "last_modified_date": null,
+    "last_touched_date": null,
+    "sent_datetime": null,
+    "subject": "Morning Team 8/19",
+    "content": "",
+    "summary": ""
+  },
+  "ocr_text": "From: Byron Nelson\nTo: Judy Albert; Carolyn; Jackie Cohen (A WMA); Frank; Goody; Henry; Hollant; Chris\nHolt; Hurst; Jim;\nJohn; Benjamin Kelahan; Cheryl Klein; Walt Klein; Lbeckwith;\nRob Meyne; Mkatz; Morrow; Powers; Randy; Roger; Ron; Suggsm; Matthew Tilley;\nwhitey\nCC; Bob Fackler; Bob Stone\nBCC:\nPrimary Date: 8/18/1998 1:00.27 PM\nLast Modified Date: 1998-Aug-25 10.23.04\nLast Touched Date:\nScnt Datc: 1998-Aug-18 12.14.08\nReceived Date: 1998-Aug-18 13.00.27\nSubject: Morning Team 8/19\nAttachments:\nMinnesota--The Minnesota ASSIST Project has awarded 25 community\norganizations in the state with grants ofup to S30,000 each to fund projects\naimed at reducing smoking: Sixteen are current grantees. Nine are new\nrecipients. Among the possible projects, the organizations will be promoting\nstricter local tobacco retailing regulations, particularly tobacco\nadvertising rules. One of the group's\nis to lower Minnesota's smoking rate to\nunder 15 percent by 2000.\nYarmouth; MA-The chamber and restaurant leaders met yesterday and\ndecided to come up with an alternative proposal to &\ncomplete ban which would\ninvolve the 6-foot rule, barriers and ventilation systems. The word is &\ncomplete ban is on the minds of the board ofhealth: On 8/25, there will be\na\nbig demonstration by seven filtration companies\n8\n8\nRJROOOOOOOOO 1 028561\n70016 5279\nJoe;\ngoal",
+  "meta": {
+    "source_image": "dataset\\email\\527790672+-0672.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 88.309,
+    "ocr_time_seconds": 10.629,
+    "classification_time_seconds": 27.684,
+    "extraction_time_seconds": 49.995
+  }
+}

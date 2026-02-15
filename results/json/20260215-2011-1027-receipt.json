@@ -1,0 +1,19 @@
+{
+  "document_type": "news",
+  "fields": {
+    "title": "UAHU, HAWAII",
+    "author": null,
+    "content": "UAHU, HAWAII\nLongboards\n92-161 Waipahe\nKapolei , HI 96707\n808)  679-4700\n\"~ I0\nServer\nElijah\n01/11/2019\nCheck ; 24016\n12;46 PM\nTable; 44/0\nDine In\n7b 6,\nItem\nRl\nPrice\nGreen Salad\n8,00\nRanch\nWagyu Cheeseburger\n19,00\nMedium We] 7\nGar| ic Fries\n2.00\nADD RAW ONIONS&  BACON PLZ\nDrink of the\n9,75\n4,00\n15.00\nSubtota]\n842,75\nDiscount Breakfast\n43.30\nHI HNLKO 4,712X GET\n18.00\n1,86\n19.00\nTota]\n20.00\npott\n841.31\n40,0\nUh\n86, 6\nGratuity\n3,00\nIn ge\n(4\nen Ia\nTota]\n4431\n4i\nPlace\nIctices.\nTipping '\nunless\notherm\nacknowled\n15-20%.\n6\" #+\n7>\n#FFi\n'#-Ex\nFltri sDX\n20%0\n42.00\n43.00\nDay\nTea\n14.00\n16.00\nOhana\n17.00\n30.00\nmion\nIdonner\n\"enhtas\nRegu\ncompris.\nFalre\nUHu"
+  },
+  "ocr_text": "UAHU, HAWAII\nLongboards\n92-161 Waipahe\nKapolei , HI 96707\n808)  679-4700\n\"~ I0\nServer\nElijah\n01/11/2019\nCheck ; 24016\n12;46 PM\nTable; 44/0\nDine In\n7b 6,\nItem\nRl\nPrice\nGreen Salad\n8,00\nRanch\nWagyu Cheeseburger\n19,00\nMedium We] 7\nGar| ic Fries\n2.00\nADD RAW ONIONS&  BACON PLZ\nDrink of the\n9,75\n4,00\n15.00\nSubtota]\n842,75\nDiscount Breakfast\n43.30\nHI HNLKO 4,712X GET\n18.00\n1,86\n19.00\nTota]\n20.00\npott\n841.31\n40,0\nUh\n86, 6\nGratuity\n3,00\nIn ge\n(4\nen Ia\nTota]\n4431\n4i\nPlace\nIctices.\nTipping '\nunless\notherm\nacknowled\n15-20%.\n6\" #+\n7>\n#FFi\n'#-Ex\nFltri sDX\n20%0\n42.00\n43.00\nDay\nTea\n14.00\n16.00\nOhana\n17.00\n30.00\nmion\nIdonner\n\"enhtas\nRegu\ncompris.\nFalre\nUHu",
+  "meta": {
+    "source_image": "dataset\\receipts\\1027-receipt.jpg",
+    "classification_confidence": 0.35,
+    "classification_method": "rules_fallback",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 90.658,
+    "ocr_time_seconds": 3.605,
+    "classification_time_seconds": 31.077,
+    "extraction_time_seconds": 55.976
+  }
+}

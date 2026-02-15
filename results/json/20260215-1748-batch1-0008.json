@@ -1,0 +1,85 @@
+{
+  "document_type": "invoice",
+  "fields": {
+    "invoice_number": "74589240",
+    "date_of_issue": "12/08/2013",
+    "seller": "Hall-Boyd, Haas and Sons",
+    "client": "Brittany Dale, East Michelleborough, KY 93895 Walterschester, LA 26239",
+    "tax_id1": "977-76-9492",
+    "tax_id2": "981-73-4585",
+    "iban": null,
+    "items": [
+      {
+        "item_number": 1,
+        "description": "3D Printed Mat Vortex Illusion",
+        "quantity": 3,
+        "unit_measurement": "each",
+        "net_price": "11,63",
+        "vat_percentage": "10%",
+        "gross_worth": "34,89"
+      },
+      {
+        "item_number": 2,
+        "description": "Living room Rug Carpet Floors Doors Round Mat",
+        "quantity": 2,
+        "unit_measurement": "each",
+        "net_price": null,
+        "vat_percentage": "10%",
+        "gross_worth": "232,65"
+      },
+      {
+        "item_number": 3,
+        "description": "New Golden Brown Oriental Rug",
+        "quantity": 5,
+        "unit_measurement": "each",
+        "net_price": null,
+        "vat_percentage": "10%",
+        "gross_worth": "232,65"
+      },
+      {
+        "item_number": 4,
+        "description": "4X6 Oushak Chobi Floral Hand-Knotted Foyer Carpet",
+        "quantity": 3,
+        "unit_measurement": "each",
+        "net_price": null,
+        "vat_percentage": "10%",
+        "gross_worth": "560"
+      },
+      {
+        "item_number": 5,
+        "description": "YILONG 5.5'x8' Handknotted Carpet",
+        "quantity": 1,
+        "unit_measurement": "each",
+        "net_price": null,
+        "vat_percentage": "10%",
+        "gross_worth": "560"
+      },
+      {
+        "item_number": 6,
+        "description": "Silk Area Rugs Home Decor Classic Blue Carpet 0790 Pretty Woman Small Large Long",
+        "quantity": 1,
+        "unit_measurement": "each",
+        "net_price": null,
+        "vat_percentage": "10%",
+        "gross_worth": "36.3"
+      }
+    ],
+    "summary": {
+      "vat_percentage": "10%",
+      "net_worth": "$ 279,58",
+      "gross_worth": "$ 11,794.44"
+    },
+    "total": null
+  },
+  "ocr_text": "Invoice\nno: 74589240\nDate of issue:\n12/08/2013\nSeller:\nClient:\nHall-Boyd\nHaas and Sons\n8719 Reed Street Apt: 120\n65628 Brittany Dale\nEast Michelleborough, KY 93895\nWalterschester, LA 26239\nTax Id: 977-76-9492\nTax Id: 981-73-4585\nIBAN: GBSIFSWB55572342266497\nITEMS\nNo.\nDescription\nQty\nUM\nNet price\nNet worth\nVAT [%]\nGross\nworth\n3D Printed Mat Vortex Illusion\n3,00\neach\n11,63\n34,89\n10%\n38,38\nLiving room Rug Carpet Floors\nDoors Round Mat\n2\nNew Golden Brown Oriental Rug\n5,00\neach\n232,65\n1 163,25\n10%\n1 279,58\n4X6 Oushak Chobi Floral\nHand-Knotted Foyer Carpet\n3\nYILONG 5.5'x8' Handknotted\n1,00\neach\n10 560,00\n10 560,00\n10%\n11 616,00\nSilk Area Rugs Home Decor\nClassic Blue Carpet 0790\nPretty Woman Small Large Long\n1,00\neach\n36,30\n36,30\n10%\n39,93\nFloor Carpet Area Rugs Various\nSize Soft Rug\nSUMMARY\nVAT [%]\nNet worth\nVAT\nGross worth\n10%\n11 794,44\n1 179,44\n12 973,88\nTotal\n$ 11 794,44\n$1 179,44\n$ 12 973,88",
+  "meta": {
+    "source_image": "dataset\\invoice\\batch1-0008.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 139.301,
+    "ocr_time_seconds": 10.53,
+    "classification_time_seconds": 25.457,
+    "extraction_time_seconds": 103.313
+  }
+}

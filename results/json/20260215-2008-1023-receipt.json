@@ -1,0 +1,21 @@
+{
+  "document_type": "receipts",
+  "fields": {
+    "store": "GUSTO",
+    "date": null,
+    "total": null,
+    "currency": "$",
+    "payment_method": null
+  },
+  "ocr_text": "GUSTO\nThaj Gusto Restaurant\n2011 Hewitt Ave\nEverett WA 98201\nTel _\n425-252-3525 Fax, 425-252-3525\nWeIcome to Thaj Gusto\nTable\nDate: 6/16/2017  12:36 PM\nServer\nPRACH\n(T,1)\nChang (2053,50)\n87,00\n#L14 Gar]ic Del ight\n24\n[Chicken] [S*#tt*] [Sma7 1\nBrown Rice]\n#L28 Red Curry\n810.24\n[Chicken] [S*#***] [Sma\nBrown Rice]\nTotal\nitem(s)\n827 , 48\nSales Tax\n82 .67\nGrand Tota]\n$30,15\nIip Guide\n158-84,52 ,\n183-85,43 ,\n20x=86 , 03\nThank you very much_\nCome back again.\nGUEST CHECK\nThis is not\nipt _\nThai\nS10 _\nrece-",
+  "meta": {
+    "source_image": "dataset\\receipts\\1023-receipt.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 118.103,
+    "ocr_time_seconds": 3.745,
+    "classification_time_seconds": 22.526,
+    "extraction_time_seconds": 91.831
+  }
+}

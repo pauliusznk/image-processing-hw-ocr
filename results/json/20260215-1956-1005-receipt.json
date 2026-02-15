@@ -1,0 +1,23 @@
+{
+  "document_type": "invoice",
+  "fields": {
+    "invoice_number": null,
+    "date": "08/15/2017",
+    "seller": null,
+    "buyer": "ta]",
+    "total_amount": null,
+    "vat_amount": null,
+    "currency": null
+  },
+  "ocr_text": "SASKA 'S\n3768 Mission BIvd\nSan Diego\nCA\n92109\n(858)   488-7311\nServer : Sue\n08/15/2017\nTabie 103/1\n5;51 PM\nGuests: 2\n10005\nReprint #:\nDraft Blackhouse\n7.00\n\"Cowboy\n1602 Ribeye\n45 ,00\nMake It Blue\n5,00\nAdd Lobster\n21.00\nCK Manhattan (2 65,00)\n10,00\nWhistle Pig Rye IOyr\n(2 620.00)\n40 , 00\n(2 )BMOD Up\n\"Duke\n1602 Top Sirloin\n34,00\nMake It Blue\n5,00\nSubtotal\n7167 .00\n12,94\nTota]\n179,94\nBa Tance\nDue\n179.94\nSUGGESTED TIP\nBEFORE   DISCOUNTS\n18X =830,06\n20x =133,40\n228 =036,74\nTax",
+  "meta": {
+    "source_image": "dataset\\receipts\\1005-receipt.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 82.702,
+    "ocr_time_seconds": 2.729,
+    "classification_time_seconds": 24.238,
+    "extraction_time_seconds": 55.734
+  }
+}

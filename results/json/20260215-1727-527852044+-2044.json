@@ -1,0 +1,21 @@
+{
+  "document_type": "email",
+  "fields": {
+    "from": "Hicks, Susan R,",
+    "to": "Wilson; Susic B:; Sclllc, Pam B.",
+    "cc": null,
+    "subject": "AttlUt",
+    "date": null
+  },
+  "ocr_text": "From:Hicks, Susan R,\nTo:Wilson; Susic B:; Sclllc, Pam B.\nCC;\nBCC:\nPrimary Date: 4/23/1998 12.59.40 PM\nLast Modified Date: 1998-Apr-23 12.59.40\nLast Touched Dale:\nSent Date: 1998-Apr-23 12.59.31\nReceived Date: 1998-Apr-23 12,59.40\nSubject:\nAttlUt\nAttachments;\nDISCQUNLDOC\nJLietreillili\nTm scnding you two this document in case there are any changcs tomorrow (since Ill bc\non vacalion).\nSusan\n8\n8\nRjr36026638\n70004 3867",
+  "meta": {
+    "source_image": "dataset\\email\\527852044+-2044.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 62.774,
+    "ocr_time_seconds": 8.495,
+    "classification_time_seconds": 21.412,
+    "extraction_time_seconds": 32.866
+  }
+}

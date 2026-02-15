@@ -1,0 +1,33 @@
+{
+  "document_type": "receipts",
+  "fields": {
+    "store_name": "pandapress",
+    "location": "everett, wa",
+    "contact_number": "(425)710-0278",
+    "date": "3/16/2013",
+    "order_time": "3:41:24 pm",
+    "invoice_number": "177437",
+    "server": null,
+    "party_pk_range": "18-22",
+    "item_name": "CHOW MEIN",
+    "quantity": 1,
+    "unit_price": "95.00",
+    "subtotal": "151.00",
+    "tax": "13.89",
+    "total": "164.89",
+    "payment_method": "cash",
+    "amount_paid": "200.00",
+    "change_given": "35.11"
+  },
+  "ocr_text": "Store 41291\nPanda Express\nEverett, WA\n(425)710-0278\n3/16/2013\nOrder :\n3:41:24 PM\n177437\nServer\nTameka\nPARTY PK 18-22\n139.00\nCHOW MEIN\nFRIED RICE\nFRIED/C MEIN\nORANGE  CKN\nGRILL TERIVAKI CKN\nPEPPERCORN SHRIMP\n12.00\nSubTotal\n151.00\nTAX\n13.89\nTotal\n164,89\nCash\n200,00\nChange\n35,11\n***tt*rr*****\n**rtttt*\nX*rxrtrrrtrx\n#tt**\nFREE ENtrEE ITEN\nHE VALVE VOUR OPINION\nCal |\n1-888-51-PANDA (72632)or\nVisit pandaexpress. COM/guest",
+  "meta": {
+    "source_image": "dataset\\receipts\\1037-receipt.jpg",
+    "classification_confidence": 0.99,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 64.367,
+    "ocr_time_seconds": 2.702,
+    "classification_time_seconds": 24.58,
+    "extraction_time_seconds": 37.085
+  }
+}

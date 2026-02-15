@@ -1,0 +1,40 @@
+{
+  "document_type": "receipts",
+  "fields": {
+    "store": null,
+    "total": {
+      "amount": "35.95",
+      "currency": "$"
+    },
+    "date": "7/26/2019",
+    "guests": [
+      "Da Fry"
+    ],
+    "invoice_number": null,
+    "total_amount": {
+      "amount": "847.02",
+      "currency": "$"
+    },
+    "tax": {
+      "amount": "2.98",
+      "currency": "$"
+    },
+    "order_total": null,
+    "tips": [
+      "8.09"
+    ],
+    "content": "",
+    "summary": ""
+  },
+  "ocr_text": "Deccan Spice\n771 Newark Avenue\nJersey City Local\nNJ 07306\n(201) 604-1772\nServer : Com\nStation:\nOrder\n80110\nDine In\nTable:\nGuests:\nDa| Fry\n10,99\nPaneer Butter Masala\n12.99\n2 rice\n3. 98\nDezcan Special Biryani\n14,99\nrice\n98 =\n(Onl ine Offer\n8,99)\nSUB   TOTAL:\n35,95\nTax\n2.98\nORDER_TOTAL\n38,93\n18X TIPS:\n8.09\nTOTAL;\n847,02\n7/26/2019 10:56:49 PM\n######ttt##rt#tttttt\nNo returns\nOr\ncance/ Iations accepted once order\nis placed _\nExchange only for faulty items ONLY_",
+  "meta": {
+    "source_image": "dataset\\receipts\\1020-receipt.jpg",
+    "classification_confidence": 0.98,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 53.317,
+    "ocr_time_seconds": 2.548,
+    "classification_time_seconds": 17.03,
+    "extraction_time_seconds": 33.739
+  }
+}
