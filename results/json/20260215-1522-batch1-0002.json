@@ -1,0 +1,23 @@
+{
+  "document_type": "invoice",
+  "fields": {
+    "invoice_number": "12847181",
+    "date": "03/03/2012",
+    "seller": "Client:",
+    "buyer": "Fitzpatrick and Sons",
+    "total_amount": null,
+    "vat_amount": null,
+    "currency": "$"
+  },
+  "ocr_text": "Invoice\nno: 12847181\nDate of issue:\n03/03/2012\nSeller:\nClient:\nFitzpatrick and Sons\nDuncan PLC\n00480 Cook Cove\nUnit 8799 Box 0703\nSpencerport; UT 12036\nDPO AP 81970\nTax Id: 998-99-5253\nTax Id: 911-82-7132\nIBAN: GB9ZPBPQ73499358975916\nITEMS\nNo.\nDescription\nQty\nUM\nNet price\nNet worth\nVAT [%]\nGross\nworth\nHP Desktop Computer PC []\n4,00\neach\n139,95\n559,80\n10%\n615,78\nCore i5 16GB 2TB HD 256GB\nSSD 22\" LCD [] Windows 10\n2\nCUSTOM BUILT AMD RYZEN\n3,00\neach\n1 400,00\n4 200,00\n10%\n620,00\nTHREADRIPPER GAMING\nCOMPUTER\n32 GB RAM;\n3\nFast Dell Optiplex Desktop PC\n1,00\neach\n217,00\n217,00\n10%\n238,70\nComputer Dual Core 3.4Ghz\n8GB 1TB Win 10 Pro WIFI\nDell Optiplex 790 Computer i7\n3,00\neach\n159,99\n479,97\n10%\n527,97\n3.40 Ghz Quad Core 250GB\n4GB Working\n5\nVintage Microsolutions Pentium\n2,00\neach\n390,00\n780,00\n10%\n858,00\n133mhz Desktop Tower PC\nWindows 95 5.25\nFloppy\nSUMMARY\nVAT [%]\nNet worth\nVAT\nGross worth\n10%\n6 236,77\n623,68\n6 860,45\nTotal\n$ 6 236,77\n623,68\n$ 6 860,45",
+  "meta": {
+    "source_image": "dataset\\invoice\\batch1-0002.jpg",
+    "classification_confidence": 1.0,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 170.374,
+    "ocr_time_seconds": 11.281,
+    "classification_time_seconds": 37.07,
+    "extraction_time_seconds": 122.022
+  }
+}

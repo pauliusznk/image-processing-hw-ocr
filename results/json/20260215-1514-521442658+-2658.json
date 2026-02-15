@@ -1,0 +1,26 @@
+{
+  "document_type": "email",
+  "fields": {
+    "from": "Rahn, Carolyn",
+    "to": [
+      "Egressy; Gabor"
+    ],
+    "cc": null,
+    "subject": "Ciparette Paper Clarification",
+    "date": "Tuesday; October 24, 1095 4:2PM",
+    "content": "Dear Mr Egressy,\nPlease clarfy the relationship; if any, between the following:\nOlsenske Designation\nHungary Doslonation Garman Designation\nCigarette paper Pandema 18\nGrade A\nH25/0.5OPISTPTCF?\nCigarette paper Pandema 25\nGrade B\nH25/00SOPISTPCIF?\nPlugwrap Rz7\nPW 27 or PWNPi27mm\nPWNP/28\nWe think that some of these may ba the same, but the infomatlon that wes sent t0 US from your factory Is not always consistent as far as nomenclature or supplier name (for example, Olpa vs Olsanske):\nPlease supply & supplier reference number for the Tann tipping used on Kossuth Filter;\nThe size Is not enough information:\nWe also still need a sample of the trlacetin that you use from Akzo Chemical:",
+    "title": null,
+    "summary": null
+  },
+  "ocr_text": "Lamachlo, Mlchele\nFrom:\nRahn, Carolyn\nTo:\nEgressy; Gabor\nCc:\nLamachio, Michele\nSubject:\nCiparette Paper Clarfication\nDate:\nTuesday; October 24, 1095 4;2PM\nDear Mr: Egressy,\nPlease clarfy the relationship; if any, between the following:\nOlsenske Designation\nHungary Doslonation Garman Designation\nCigarette paper Pandema 18\nGrade A\nH25/0.5OPISTPTCF?\nCigarette paper Pandema 25\nGrade B\nH25/0.SOPISTPICF?\nPlugwrap Rz7\nPW 27 or PWNPi27mm\nPWNP/28\nWe think that some of these may ba the same, but the infomatlon that wes sent t0 US from your factory Is not\nalays consistent as far as nomenclature or supplier name (for example, Olpa vs Olsanske):\nPlease supply & supplier reference number for the Tann tipping used on Kossuth Filter;\nThe size Is not enough\ninforation:\nWe also still need a sample of the trlacetin that you use from Akzo Chemical:\nWe have & November\ndeadline so / hopa to hear from you soon.\nBest regards;\nCarolyn Rehn\n1\nPage 1\n:",
+  "meta": {
+    "source_image": "dataset/email/521442658+-2658.jpg",
+    "classification_confidence": 0.98,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 84.321,
+    "ocr_time_seconds": 10.595,
+    "classification_time_seconds": 30.769,
+    "extraction_time_seconds": 42.828
+  }
+}

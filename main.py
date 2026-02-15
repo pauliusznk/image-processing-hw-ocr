@@ -50,6 +50,9 @@ def main():
     if not os.path.exists(args.image):
         raise SystemExit(f"Image not found: {args.image}")
 
+    print(f"\n🚀 Processing: {os.path.basename(args.image)}")
+    print(f"📂 Output directory: {args.outdir}\n")
+
     result = process_image(
         image_path=args.image,
         outdir=args.outdir,
@@ -58,8 +61,14 @@ def main():
         tesseract_lang=args.lang,
         annotate=args.annotate,
     )
-    print("\n=== RESULT JSON ===")
-    print(result)
+
+    print("\n=== RESULT ===")
+    print(f"Document type: {result.get('document_type')}")
+    print(f"Method: {result.get('meta', {}).get('classification_method')}")
+    print(f"Confidence: {result.get('meta', {}).get('classification_confidence', 0):.2f}")
+    print(f"\nJSON saved to: {args.outdir}/json/")
+    if args.annotate:
+        print(f"Annotated image saved to: {args.outdir}/annotated_images/")
 
 if __name__ == "__main__":
     main()

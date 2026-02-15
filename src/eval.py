@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 
 from .pipeline import process_image
 from .utils import list_images, ensure_dirs, get_timestamp_prefix
+from .spinner import Spinner
 
 LABELS = ["email", "invoice", "news", "receipts"]
 
@@ -56,10 +57,13 @@ def run_batch(
             for lab_imgs in label_images.values():
                 images.extend(lab_imgs)
 
-    print(f"Processing {len(images)} images...")
+    print(f"\n🚀 Batch processing: {len(images)} images\n")
     rows = []
     for idx, img_path in enumerate(images, 1):
-        print(f"[{idx}/{len(images)}] {os.path.basename(img_path)}")
+        # Progress spinner for each image
+        spinner = Spinner(f"[{idx}/{len(images)}] Processing {os.path.basename(img_path)}")
+        spinner.start()
+
         img_start = time.time()
         res = process_image(
             image_path=img_path,
@@ -68,10 +72,15 @@ def run_batch(
             use_llm=use_llm,
             tesseract_lang=tesseract_lang,
             annotate=annotate,
+            show_spinner=False,  # Disable inner spinner in batch mode
         )
         img_time = time.time() - img_start
         pred = res.get("document_type")
         true = _true_label_from_path(img_path)
+
+        # Stop spinner with result
+        spinner.stop(f"✓ [{idx}/{len(images)}] {os.path.basename(img_path)} → {pred} ({img_time:.2f}s)")
+
         rows.append({
             "image": img_path,
             "true_label": true,
@@ -80,6 +89,11 @@ def run_batch(
             "method": res.get("meta", {}).get("classification_method"),
             "processing_time": res.get("meta", {}).get("processing_time_seconds", img_time),
         })
+
+    # Generate metrics with spinner
+    print()  # Add newline
+    spinner = Spinner("📊 Generating metrics and confusion matrix")
+    spinner.start()
 
     df = pd.DataFrame(rows)
     timestamp = get_timestamp_prefix()
@@ -132,6 +146,8 @@ def run_batch(
         plt.tight_layout()
         plt.savefig(plot_path, dpi=150)
         plt.close()
+
+    spinner.stop(f"✓ Metrics generated (Accuracy: {acc:.3f})")
 
     print(f"\n=== Results ===")
     print(f"Saved: {metrics_path}")

@@ -1,0 +1,23 @@
+{
+  "document_type": "email",
+  "fields": {
+    "from_name": "LeVan, Suzanne",
+    "sent_date": "Friday, August 6, 1999 6.23 PM",
+    "to_names": [
+      "Rush; Sonya C."
+    ],
+    "subject": "Seelinag DiVarv Jo I had a conversation with Mary JO.",
+    "content": null
+  },
+  "ocr_text": "From:\nLeVan, Suzanne\nSent:\nFriday,\nAugust 6,\n1999 6.23 PM\nTo:\nRush; Sonya C.\nSubject:\nSeelinag DiVarv\nJo\n1\nI\nhad a\nconversation with Mary JO.\nIm fine with the follow up to the\nspecific incident & the handling of the corporate affairs contribution.\nHowever\nIm\nreally concerned (&very cynical) about what might be\nhappening;\nsuspect lhis was not by coincidence.\nInn not sure how much it\nwas\npreplanned_\nbut Mary Jo can share with several different scenarios that\nwe brainstormed:\nMary Jo promised to keep on alert for\nunusual activity in the current 3\nmarkets\nand\n'shouz3ink\nis\nto think about\nawyeihes\nthere are any preventalive\nsteps we can/\ntake.\nPage 1\nMary\nlong",
+  "meta": {
+    "source_image": "dataset/email/2070975926c_5927.jpg",
+    "classification_confidence": 0.98,
+    "classification_method": "llm",
+    "ocr_engine": "easyocr",
+    "processing_time_seconds": 65.712,
+    "ocr_time_seconds": 11.296,
+    "classification_time_seconds": 30.926,
+    "extraction_time_seconds": 23.382
+  }
+}
