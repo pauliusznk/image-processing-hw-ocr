@@ -246,8 +246,8 @@ Programa sugeneruoja JSON failą į `results/json/<failas>.json`. Žemiau pateik
 
 - Vaizdų skaičius: **100**
 - Accuracy: **0.910**
-- `results/metrics/summary.txt` taip pat pateikia laiko statistiką. :contentReference[oaicite:0]{index=0}
-
+- `results/metrics/summary.txt` taip pat pateikia laiko statistiką.
+  
 ### 7.2 Confusion matrix
 
 Žemiau pateikiama klaidų matrica (True vs Predicted):
