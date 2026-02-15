@@ -27,9 +27,8 @@ def ocr_image(image_path: str, lang: str = "en") -> Dict[str, Any]:
     if img is None:
         raise ValueError(f"Could not read image: {image_path}")
 
-    # lang formatas: "eng+lit" buvo tesseract'ui.
-    # EasyOCR naudoja trumpinius, pvz: 'en', 'lt'.
-    # Čia paprasta logika: jei vartotojas duoda "en+lt" -> ['en','lt']
+    # lang formatas: EasyOCR naudoja trumpinius, pvz: 'en', 'lt'.
+    # Jei vartotojas duoda "en+lt" -> ['en','lt']
     if "+" in lang:
         langs = [x.strip() for x in lang.split("+") if x.strip()]
     else:

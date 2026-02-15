@@ -25,7 +25,7 @@ def run_batch(
     model: str = "phi3",
     use_llm: bool = True,
     limit: int = 0,
-    tesseract_lang: str = "eng",
+    ocr_lang: str = "en",
     annotate: bool = False,
 ):
     batch_start_time = time.time()
@@ -70,7 +70,7 @@ def run_batch(
             outdir=outdir,
             model=model,
             use_llm=use_llm,
-            tesseract_lang=tesseract_lang,
+            ocr_lang=ocr_lang,
             annotate=annotate,
             show_spinner=False,  # Disable inner spinner in batch mode
         )

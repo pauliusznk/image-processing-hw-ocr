@@ -23,7 +23,7 @@ def parse_args():
     p.add_argument("--model", type=str, default="phi3", help="Ollama model name (default: phi3).")
     p.add_argument("--no-llm", action="store_true", help="Disable LLM; use rule-based fallback only.")
     p.add_argument("--limit", type=int, default=0, help="Limit number of images in batch (0 = no limit).")
-    p.add_argument("--lang", type=str, default="en", help="Tesseract language(s), e.g. eng or eng+lit (default: eng).")
+    p.add_argument("--lang", type=str, default="en", help="EasyOCR language(s), e.g. en or en+lt (default: en).")
     p.add_argument("--annotate", action="store_true", help="Save annotated image with OCR boxes.")
     return p.parse_args()
 
@@ -39,7 +39,7 @@ def main():
             model=args.model,
             use_llm=not args.no_llm,
             limit=args.limit,
-            tesseract_lang=args.lang,
+            ocr_lang=args.lang,
             annotate=args.annotate,
         )
         return
@@ -58,7 +58,7 @@ def main():
         outdir=args.outdir,
         model=args.model,
         use_llm=not args.no_llm,
-        tesseract_lang=args.lang,
+        ocr_lang=args.lang,
         annotate=args.annotate,
     )
 

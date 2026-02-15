@@ -11,7 +11,7 @@ def process_image(
     outdir: str = "results",
     model: str = "phi3",
     use_llm: bool = True,
-    tesseract_lang: str = "eng",
+    ocr_lang: str = "en",
     annotate: bool = False,
     show_spinner: bool = True,
 ):
@@ -20,11 +20,11 @@ def process_image(
     ensure_dirs(outdir)
 
     # OCR step
-    spinner = Spinner("📄 Running OCR") if show_spinner else None
+    spinner = Spinner("📄 Running OCR (EasyOCR)") if show_spinner else None
     if spinner:
         spinner.start()
     ocr_start = time.time()
-    ocr = ocr_image(image_path, lang=tesseract_lang)
+    ocr = ocr_image(image_path, lang=ocr_lang)
     ocr_time = time.time() - ocr_start
     text = ocr["text"]
     if spinner:
@@ -61,7 +61,7 @@ def process_image(
         "source_image": image_path,
         "classification_confidence": conf,
         "classification_method": method,
-        "ocr_engine": ocr.get("engine", "tesseract"),
+        "ocr_engine": ocr.get("engine", "easyocr"),
         "processing_time_seconds": round(total_time, 3),
         "ocr_time_seconds": round(ocr_time, 3),
         "classification_time_seconds": round(classify_time, 3),
